@@ -15,14 +15,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Warrior&apos;s Group</title>
-        <meta name="Warriors&apos; Group" content="The official site for the Warriors&apos; Group Organization" />
+        <meta name="Warriors Group" content="The official site for the Warriors&apos; Group Organization" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <nav>
           <div id={styles.navLeft}>
             <Link href='/'>
-              <div id={styles.logo}>Warriors&apos; Group</div>
+              <div id={styles.logo}>WarriorsGroup</div>
             </Link>
             <Link href='/'>
               <div className={styles.navEle}>Home</div>
@@ -34,7 +34,7 @@ export default function Home() {
             <Link href="/tech">
               <div className={styles.navEle}>Technologies</div>
             </Link>
-            <Link href='#'>
+            <Link href='/about'>
               <div className={styles.navEle}>About Us</div></Link>
           </div>
           <Link href='/contact'>
@@ -162,7 +162,7 @@ export default function Home() {
 
                 <div className={styles.recruitDivider}>
                   <div className={styles.recruitCardProcess}>
-                    <div className={styles.recruitCardHead}>Matching</div>
+                    <div className={styles.recruitCardHead}>Sourcing</div>
                     <div className={styles.recruitCardSubhead}>Matching the candidates with required jobs</div>
                   </div>
                   <Image src="/assets/match.png" width='50' height='50' />

@@ -1,0 +1,75 @@
+#logo {
+    color: var(--themeColor);
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    font-weight: 500;
+}
+
+#topStyle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: var(--themeColor);
+    width: 30vw;
+    height: 70vh;
+}
+
+#navRight {
+    background-color: var(--themeSec);
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+#who {
+    padding: 5rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#whoHead {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--themeColor);
+}
+
+#whoSub {
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+#whoSub span {
+    font-weight: 600;
+    color: var(--themeColor);
+}
+
+#port {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+}
+
+#portText {
+    padding: 0rem 7rem;
+}
+
+#serHead {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.portSer {
+    font-size: 2rem;
+}

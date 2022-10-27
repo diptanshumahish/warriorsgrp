@@ -12,7 +12,7 @@ export default function () {
                 <nav>
                     <div id={s.navLeft}>
                         <Link href='/'>
-                            <div id={s.logo}>Warriors&apos; Group</div>
+                            <div id={s.logo}>Warriors Group</div>
                         </Link>
                         <Link href='/'>
                             <div className={s.navEle}>Home</div>
@@ -24,7 +24,7 @@ export default function () {
                         <Link href="/tech">
                             <div className={s.navEle}>Technologies</div>
                         </Link>
-                        <Link href='#'>
+                        <Link href='/about'>
                             <div className={s.navEle}>About Us</div></Link>
                     </div>
                     <Link href='/contact'>

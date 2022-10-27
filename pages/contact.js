@@ -25,7 +25,7 @@ export default function Contact() {
                         <Link href="/tech">
                             <div className={s.navEle}>Technologies</div>
                         </Link>
-                        <Link href='#'>
+                        <Link href='/about'>
                             <div className={s.navEle}>About Us</div></Link>
                     </div>
                     <Link href='/contact'>

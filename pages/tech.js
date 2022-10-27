@@ -22,7 +22,7 @@ export default function Tech() {
                 <nav>
                     <div id={t.navLeft}>
                         <Link href='/'>
-                            <div id={t.logo}>Warriors&apos; Group</div>
+                            <div id={t.logo}>Warriors Group</div>
                         </Link>
                         <Link href='/'>
                             <div className={t.navEle}>Home</div>
@@ -34,7 +34,7 @@ export default function Tech() {
                         <Link href="/tech">
                             <div className={t.navEle}>Technologies</div>
                         </Link>
-                        <Link href='#'>
+                        <Link href='/about'>
                             <div className={t.navEle}>About Us</div></Link>
                     </div>
                     <Link href='/contact'>
