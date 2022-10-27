@@ -23,7 +23,7 @@ export default function Home() {
             <Link href='#'>
               <div className={styles.navEle}>Services</div>
             </Link>
-            <Link href="#">
+            <Link href="/tech">
               <div className={styles.navEle}>Technologies</div>
             </Link>
             <Link href='#'>
@@ -113,6 +113,28 @@ export default function Home() {
               <div className={styles.serviceCardRight}>
                 <Image src="/test.jpg" alt="" width="200" height="300" />
               </div>
+            </div>
+          </div>
+        </section>
+        <section id={styles.tech}>
+          <div id={styles.servicesHead}>
+            What tehchnology candidates do we have? <br />
+            <span>Explore our major tech here</span>
+            <Link href='/tech'>
+              <div id={styles.techButton}>Check out all Technologies&apos; candidates we have 🠮
+              </div>
+            </Link>
+            <div id={styles.techHomeArea}>
+              <div id={styles.techCardsHome}>
+                <div className={styles.techCardHome}>Java FullStack</div>
+                <div className={styles.techCardHome}>Python</div>
+                <div className={styles.techCardHome}>.Net Developer</div>
+                <div className={styles.techCardHome}>Data Engineering</div>
+              </div>
+              <div id={styles.img}>
+                <Image src='/techback.svg' height='500' width='500' />
+              </div>
+
             </div>
           </div>
         </section>

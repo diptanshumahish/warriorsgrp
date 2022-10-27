@@ -23,6 +23,7 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -45,4 +46,13 @@ header {
   align-items: center;
   height: 100vh;
 
+}
+section{
+  padding: 4rem;
+}
+
+@media screen and (min-width:2000px) {
+  * {
+    font-size: 105%;
+  }
 }
