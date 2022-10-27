@@ -36,6 +36,7 @@
   font-size: 3rem;
   width: 40%;
   padding: 3rem;
+  padding-left: 5rem;
 }
 
 #headerLeft span {
@@ -149,11 +150,12 @@
   flex-direction: row;
   width: 100vw;
 
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
 #techCardsHome {
+  padding-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -165,7 +167,7 @@
   color: white;
   font-size: 1rem;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 1rem;
   border-radius: 0.3rem;
