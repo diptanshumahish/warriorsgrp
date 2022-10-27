@@ -22,7 +22,7 @@ export default function Home() {
         <nav>
           <div id={styles.navLeft}>
             <Link href='/'>
-              <div id={styles.logo}>WarriorsGroup</div>
+              <div id={styles.logo}>Warriors Group</div>
             </Link>
             <Link href='/'>
               <div className={styles.navEle}>Home</div>
