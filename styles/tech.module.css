@@ -1,0 +1,121 @@
+#logo {
+    color: var(--themeColor);
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#navLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    font-weight: 500;
+
+}
+
+
+#navRight {
+    background-color: var(--themeSec);
+    padding: 0.4rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.techBack {
+    padding: 3rem;
+
+}
+
+#techIntro {
+    padding-top: 2rem;
+}
+
+#techHead {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--themeColor);
+}
+
+#techCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+
+.techCard {
+    background-color: var(--themeSec);
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.techCardHead {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.techCardSub {
+    color: white;
+}
+
+#extraArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#extraHeading {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+#extraContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
+
+.extraCard {
+    background-color: var(--themeColor);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    width: 140%;
+}
+
+#footer {
+    background-color: var(--themeColor);
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoText {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#footeradress {
+    color: rgba(255, 255, 255, 0.564);
+}
+
+.footerContact {
+    text-align: right;
+    color: white;
+}
+
+#footerRight {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

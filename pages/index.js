@@ -21,24 +21,23 @@ export default function Home() {
       <main>
         <nav>
           <div id={styles.navLeft}>
-            <Link href='#'>
+            <Link href='/'>
               <div id={styles.logo}>Warriors&apos; Group</div>
             </Link>
-            <Link href='#'>
+            <Link href='/'>
               <div className={styles.navEle}>Home</div>
             </Link>
-            <Link href='#'>
-              <div className={styles.navEle}>Services</div>
-            </Link>
+
             <Link href="/tech">
               <div className={styles.navEle}>Technologies</div>
             </Link>
             <Link href='#'>
               <div className={styles.navEle}>About Us</div></Link>
           </div>
-          <div id={styles.navRight}>
-            Contact Us
-          </div>
+          <Link href='/contact'>
+            <div id={styles.navRight}>
+              Contact Us
+            </div></Link>
         </nav>
         <div id={styles.topStyle}></div>
         <header>
