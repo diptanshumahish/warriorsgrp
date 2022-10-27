@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Warrior's Group</title>
-        <meta name="Warriors' Group" content="The official site for the Warriors' Group Organization" />
+        <title>Warrior&apos;s Group</title>
+        <meta name="Warriors&apos; Group" content="The official site for the Warriors&apos; Group Organization" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <nav>
           <div id={styles.navLeft}>
             <Link href='#'>
-              <div id={styles.logo}>Warriors' Group</div>
+              <div id={styles.logo}>Warriors&apos; Group</div>
             </Link>
             <Link href='#'>
               <div className={styles.navEle}>Home</div>
