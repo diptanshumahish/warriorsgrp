@@ -263,3 +263,33 @@
   justify-content: space-between;
   align-items: center;
 }
+
+#footer {
+  background-color: var(--themeColor);
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logoText {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#footeradress {
+  color: rgba(255, 255, 255, 0.564);
+}
+
+.footerContact {
+  text-align: right;
+  color: white;
+}
+
+#footerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

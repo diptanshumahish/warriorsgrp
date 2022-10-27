@@ -64,10 +64,10 @@ export default function Home() {
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>IT Consulting</div>
-                  <span>We offer IT Consulting services that will help you improve your software architecture.
+                  <span>We offer IT Consulting services that  help you improve your software architecture.
                     Create
                     a
-                    software driven strategy, improve opertaions by optimising your portfolio...</span>
+                    software driven strategy, improve opertaions ...</span>
                 </div>
                 <div className={styles.servBottom}>
                   Get the service!
@@ -111,7 +111,7 @@ export default function Home() {
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>Application Developement</div>
-                  <span>We will make application based on your company requirements,on various platforms that suite your needs</span>
+                  <span>We will make application based on your company requirements,that suite your needs</span>
                 </div>
                 <div className={styles.servBottom}>
                   Get the service!
@@ -235,6 +235,23 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <footer id={styles.footer}>
+        <div id={styles.footerLeft}>
+          <div id={styles.footerLogo}>
+            <Image src='/assets/war.png' height={100} width={100} />
+          </div>
+          <div id={styles.logoText}>Warrior&apos;s Group</div>
+          <div id={styles.footeradress}>Some adress,India</div>
+        </div>
+        <div id={styles.footerRight}>
+          <div className={styles.footerContact}>+1234567890</div>
+          <div className={styles.footerContact}>some exact Adress here</div>
+          <div className={styles.footerContact}>Instagram</div>
+          <div className={styles.footerContact}>Facebook</div>
+          <div className={styles.footerContact}>Contact Form</div>
+        </div>
+
+      </footer>
     </div>
   )
 }
