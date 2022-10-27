@@ -60,7 +60,7 @@ export default function Home() {
                   <span>We offer IT Consulting services that will help you improve your software architecture.
                     Create
                     a
-                    software driven strategy, improve opertaions by optimisig your portfolio...</span>
+                    software driven strategy, improve opertaions by optimising your portfolio...</span>
                 </div>
                 <div className={styles.servBottom}>
                   Get the service!
@@ -74,10 +74,9 @@ export default function Home() {
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>Temporary Staffing</div>
-                  <span>We offer IT Consulting services that will help you improve your software architecture.
-                    Create
-                    a
-                    software driven strategy, improve opertaions by optimisig your portfolio...</span>
+                  <span>
+                    Candidates can work with clients , and after completion get back to us for more work.
+                  </span>
                 </div>
                 <div className={styles.servBottom}>
                   Get the service!
@@ -91,10 +90,7 @@ export default function Home() {
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>Permanent Staffing</div>
-                  <span>We offer IT Consulting services that will help you improve your software architecture.
-                    Create
-                    a
-                    software driven strategy, improve opertaions by optimising your portfolio...</span>
+                  <span>We will provide candidates based on client requirements</span>
                 </div>
                 <div className={styles.servBottom}>
                   Get the service!
@@ -107,11 +103,8 @@ export default function Home() {
             <div className={styles.serviceCard}>
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
-                  <div className={styles.serviceCardHeading}>IT Consulting</div>
-                  <span>We offer IT Consulting services that will help you improve your software architecture.
-                    Create
-                    a
-                    software driven strategy, improve opertaions by optimisig your portfolio...</span>
+                  <div className={styles.serviceCardHeading}>Application Developement</div>
+                  <span>We will make application based on your company requirements,on various platforms that suite your needs</span>
                 </div>
                 <div className={styles.servBottom}>
                   Get the service!
