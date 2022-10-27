@@ -67,14 +67,16 @@
   padding: 4rem;
 }
 
-#servicesHead {
+#servicesHead,
+#recruitHead {
   font-size: 3.5rem;
   width: 50%;
   font-weight: 500;
   line-height: 1;
 }
 
-#servicesHead span {
+#servicesHead span,
+#recruitHead span {
   font-size: 1.5rem;
   font-weight: normal;
 }
@@ -134,16 +136,6 @@
   font-weight: 500;
 }
 
-#techButton {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  background-color: var(--themeColor);
-  padding: 0.8rem;
-  color: white;
-  border-radius: 0.4rem;
-  width: fit-content;
-  box-shadow: rgba(100, 100, 111, 0.429) 0px 7px 29px 0px;
-}
 
 #techHomeArea {
   display: flex;
@@ -172,6 +164,15 @@
   padding: 1rem;
   border-radius: 0.3rem;
   width: 50%;
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+  box-shadow: rgba(45, 45, 48, 0.203) 0px 7px 29px 0px;
+}
+
+.techCardHome:hover {
+  scale: 1.02;
+  transition: all 500ms ease-in-out;
+
 }
 
 .techCardHome Image {
@@ -189,4 +190,78 @@
 
 #net {
   background-color: blue;
+}
+
+#devOps {
+  background-color: cadetblue;
+}
+
+#techButton {
+  background-color: var(--themeColor);
+}
+
+#recruitProcess {
+  background-color: var(--themeSec);
+}
+
+#recruitHead {
+  color: white;
+}
+
+#recruitArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#recruitCards {
+  margin-top: 1rem;
+  width: 60%;
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.recruitCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-width: 35rem;
+  max-width: 35rem;
+  background-color: white;
+  height: fit-content;
+  justify-content: sp;
+  padding: 2rem;
+  border: 1px solid var(--themeColor);
+  border-radius: 1rem;
+}
+
+.recruitCardNumber {
+  background-color: var(--themeColor);
+  padding: 0.5rem;
+  color: white;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  border-radius: 50%;
+}
+
+.recruitCardHead {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.recruitCardSubhead {
+  width: 60%;
+}
+
+.recruitDivider {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
