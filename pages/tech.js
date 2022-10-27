@@ -2,10 +2,17 @@ import Head from "next/head";
 import Image from "next/image";
 import t from "../styles/tech.module.css"
 import Link from "next/link";
+import { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 
 
 export default function Tech() {
+    useEffect(() => {
+        Aos.init();
+        Aos.refresh();
+    }, []);
     return (
         <div id={t.container}>
             <Head>
@@ -37,7 +44,7 @@ export default function Tech() {
                 </nav>
                 <div className={t.techBack}>
 
-                    <div id={t.techCards}>
+                    <div id={t.techCards} data-aos="fade-up">
                         {/* 1 */}
                         <Link href='/contact'>
 

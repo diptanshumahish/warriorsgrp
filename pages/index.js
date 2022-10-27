@@ -43,7 +43,7 @@ export default function Home() {
             </div></Link>
         </nav>
         <div id={styles.topStyle}></div>
-        <header>
+        <header data-aos="fade-up">
           <div id={styles.headerLeft}>
             The Best <span>Staffing</span> and <span>Hiring</span> solutions rightaway! <br />
             <div id={styles.headerCta}>Exlpore more!</div>
