@@ -143,7 +143,7 @@ export default function Home() {
               </div>
 
               <div id={styles.img}>
-                <Image src='/techback.svg' height='500' width='500' />
+                <Image src='/techback.svg' height='500' width='500' data-aos="fade-left" />
               </div>
 
             </div>
@@ -230,7 +230,7 @@ export default function Home() {
               </div>
 
             </div>
-            <Image src="/recruit.svg" width={500} height={500} />
+            <Image src="/recruit.svg" width={500} height={500} data-aos="fade-left" />
 
           </div>
         </section>
