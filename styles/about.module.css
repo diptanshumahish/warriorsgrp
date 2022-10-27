@@ -59,15 +59,18 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5rem;
+    background-color: var(--themeSec)
 }
 
 #portText {
     padding: 0rem 7rem;
+    color: white;
 }
 
 #serHead {
     font-size: 3rem;
     font-weight: 600;
+
 }
 
 .portSer {
