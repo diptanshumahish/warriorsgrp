@@ -50,13 +50,17 @@
     background-color: var(--themeSec);
     padding: 1rem;
     border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .techCardHead {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .techCardSub {

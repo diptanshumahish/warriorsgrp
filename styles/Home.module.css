@@ -63,8 +63,42 @@
   left: 20rem;
 }
 
-#services {
-  padding: 4rem;
+#abtUsArea {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+#abtUsHead {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#abtusText {
+  text-align: right;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+#whoContent span {
+  font-weight: 600;
+  color: var(--themeColor);
+}
+
+#what {
+  display: flex;
+  gap: 1rem;
+}
+
+.whatHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--themeColor);
+}
+
+.whatContent {
+  width: 80%;
 }
 
 #servicesHead,
@@ -79,61 +113,6 @@
 #recruitHead span {
   font-size: 1.5rem;
   font-weight: normal;
-}
-
-#serviceCards {
-  display: grid;
-  margin-top: 1rem;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem
-}
-
-.serviceCard {
-  width: 100%;
-  background-color: var(--themeSec);
-  height: 300px;
-  border-radius: 0.5rem;
-  display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.429) 0px 7px 29px 0px;
-}
-
-.serviceCardLeft {
-  width: 72%;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.serviceCardRight {
-  width: 29%;
-}
-
-.serviceCardRight img {
-  height: 100%;
-}
-
-.serviceCardHeading {
-  font-size: 2rem;
-  color: white;
-  font-weight: 600;
-  padding-bottom: 1rem;
-}
-
-.serviceCardLeft span {
-  font-size: 1.2rem;
-  margin-top: 2rem;
-  color: rgba(255, 255, 255, 0.834);
-}
-
-.servBottom {
-  background-color: white;
-  width: fit-content;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: 500;
 }
 
 

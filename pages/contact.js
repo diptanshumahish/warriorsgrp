@@ -18,6 +18,9 @@ export default function Contact() {
                         <Link href='/'>
                             <div className={s.navEle}>Home</div>
                         </Link>
+                        <Link href='/services'>
+                            <div className={s.navEle}>Services</div>
+                        </Link>
 
                         <Link href="/tech">
                             <div className={s.navEle}>Technologies</div>

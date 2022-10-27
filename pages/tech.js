@@ -20,6 +20,9 @@ export default function Tech() {
                         <Link href='/'>
                             <div className={t.navEle}>Home</div>
                         </Link>
+                        <Link href='/services'>
+                            <div className={t.navEle}>Services</div>
+                        </Link>
 
                         <Link href="/tech">
                             <div className={t.navEle}>Technologies</div>
@@ -33,10 +36,7 @@ export default function Tech() {
                         </div></Link>
                 </nav>
                 <div className={t.techBack}>
-                    <div id={t.techIntro}>
-                        <div id={t.techHead}>Explore what technology  candidates we have here</div>
-                        <div id={t.subHead}>Check out your desired requirements</div>
-                    </div>
+
                     <div id={t.techCards}>
                         {/* 1 */}
                         <Link href='/contact'>
@@ -45,9 +45,8 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     Java
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/java.svg' height={50} width={50} />
+
                             </div>
                         </Link>
                         {/* 2 */}
@@ -57,9 +56,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     Python
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/python.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 3 */}
@@ -67,11 +64,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    Data scientist
+                                    .NET Developer
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/net.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 4 */}
@@ -79,11 +74,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    .NET Developer
+                                    iOS Developer
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/ios.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 5 */}
@@ -91,11 +84,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    Mulesoft
+                                    Azure
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/azure.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 6 */}
@@ -103,11 +94,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    Data Engineering
+                                    AWS
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/aws.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 7 */}
@@ -115,11 +104,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    Service Now
+                                    React JS
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/react.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 8 */}
@@ -127,11 +114,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    DevOps
+                                    UI/UX
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/ui.svg' height={50} width={50} />
                             </div>
                         </Link>
                         {/* 9 */}
@@ -139,11 +124,9 @@ export default function Tech() {
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
-                                    Business Analyst
+                                    Cyber Security
                                 </div>
-                                <div className={t.techCardSub}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, omnis velit aliquid enim obcaecati harum aperiam impedit non saepe pariatur perferendis placeat fugit nisi aspernatur? Cum voluptate consequatur asperiores maiores.
-                                </div>
+                                <Image src='/assets/cyber.svg' height={50} width={50} />
                             </div>
                         </Link>
 
@@ -171,12 +154,12 @@ export default function Tech() {
                                 </Link>
                                 <Link href='/contact'>
                                     <div className={t.extraCard}>
-                                        UI Developer
+                                        DevOps
                                     </div>
                                 </Link>
                                 <Link href='/contact'>
                                     <div className={t.extraCard}>
-                                        iOS Developer
+                                        Data Scientist
                                     </div>
                                 </Link>
                                 <Link href='/contact'>
@@ -191,7 +174,7 @@ export default function Tech() {
                                 </Link>
                                 <Link href='/contact'>
                                     <div className={t.extraCard}>
-                                        Azure
+                                        Mulesoft
                                     </div>
                                 </Link>
                                 <Link href='/contact'>
@@ -201,7 +184,7 @@ export default function Tech() {
                                 </Link>
                                 <Link href='/contact'>
                                     <div className={t.extraCard}>
-                                        AWS
+                                        Data Engineering
                                     </div>
                                 </Link>
                                 <Link href='/contact'>
@@ -211,7 +194,7 @@ export default function Tech() {
                                 </Link>
                                 <Link href='/contact'>
                                     <div className={t.extraCard}>
-                                        Cyber Security
+                                        Business Analyst
                                     </div>
                                 </Link>
                                 <Link href='/contact'>
@@ -231,7 +214,7 @@ export default function Tech() {
                                 </Link>
                                 <Link href='/contact'>
                                     <div className={t.extraCard}>
-                                        React JS
+                                        Service Now
                                     </div>
                                 </Link>
                                 <Link href='/contact'>
@@ -257,11 +240,12 @@ export default function Tech() {
                         <Image src='/assets/war.png' height={100} width={100} />
                     </div>
                     <div id={t.logoText}>Warrior&apos;s Group</div>
-                    <div id={t.footeradress}>Some adress,India</div>
+                    <div id={t.footeradress}>Lewes,USA</div>
                 </div>
                 <div id={t.footerRight}>
-                    <div className={t.footerContact}>+1234567890</div>
-                    <div className={t.footerContact}>some exact Adress here</div>
+                    <div className={t.footerContact}>Fax: 302-645-1280</div>
+                    <div className={t.footerContact}>16192 Coastal Highway
+                        Lewes, DE 19958 USA</div>
                     <div className={t.footerContact}>Instagram</div>
                     <div className={t.footerContact}>Facebook</div>
                     <div className={t.footerContact}>Contact Form</div>

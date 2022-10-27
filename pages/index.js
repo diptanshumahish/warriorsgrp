@@ -27,6 +27,9 @@ export default function Home() {
             <Link href='/'>
               <div className={styles.navEle}>Home</div>
             </Link>
+            <Link href='/services'>
+              <div className={styles.navEle}>Services</div>
+            </Link>
 
             <Link href="/tech">
               <div className={styles.navEle}>Technologies</div>
@@ -50,78 +53,64 @@ export default function Home() {
             <Image src="/test.jpg" alt="" srcset="" width="348" height="500" />
           </div>
         </header>
-        <section id={styles.services}>
-          <div id={styles.servicesHead} >
-            What services do we offer? <br />
-            <span>Explore our services below</span>
+        <section id={styles.abtUs}>
+          <div id={styles.abtUsArea}>
+            <Image src='/assets/abtus.svg' width={500} height={500} data-aos="fade-right" />
+
+            <div id={styles.abtusText} data-aos="fade-left">
+              <div id={styles.abtUsHead}>
+                Who are we? <br />
+
+              </div>
+              <div id={styles.whoContent}>
+                Warriors Group is a premier global consulting hub providing a gamut of technology services with superior capabilities in cutting edge digital offerings around Blockchain, Analytics, Industrial IoT, Big Data and Mobile Applications development.
+              </div>
+            </div>
+
           </div>
-          <div id={styles.serviceCards}>
+          <div id={styles.abtUsArea}>
+            <Image src='/assets/design.svg' width={500} height={500} data-aos="fade-right" />
 
+            <div id={styles.abtusText} data-aos="fade-left">
+              <div id={styles.abtUsHead}>
+                Why us? <br />
 
+              </div>
+              <div id={styles.whoContent}>
+                When you partner with <span>Warriors Group</span>, we provide you with the talent, tools and services you need to innovate <span>faster</span>, keep ahead of the competition, and demonstrate the <span>true value of IT</span>. You get the experts you need, when you need them, freeing you to focus on innovation.
 
-            <div className={styles.serviceCard} data-aos="fade-up">
-              <div className={styles.serviceCardLeft}>
-                <div className={styles.servTop}>
-                  <div className={styles.serviceCardHeading}>IT Consulting</div>
-                  <span>We offer IT Consulting services that  help you improve your software architecture.
-                    Create
-                    a
-                    software driven strategy, improve opertaions ...</span>
-                </div>
-                <div className={styles.servBottom}>
-                  Get the service!
-                </div>
-              </div>
-              <div className={styles.serviceCardRight}>
-                <Image src="https://unsplash.com/photos/wzVQp_NRIHg/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjR8fGNvbXB1dGVyfGVufDB8fHx8MTY2NjgyOTQ3Mw&force=true" alt="" width="210" height="600" />
-              </div>
+                Let Warriors Tech dedicated monitoring and administration professionals help you build an <span>A-team</span> to manage your critical systems, so you can focus on your business.              </div>
             </div>
-            <div className={styles.serviceCard} data-aos="fade-up" data-aos-delay="200">
-              <div className={styles.serviceCardLeft}>
-                <div className={styles.servTop}>
-                  <div className={styles.serviceCardHeading}>Temporary Staffing</div>
-                  <span>
-                    Candidates can work with clients , and after completion get back to us for more work.
-                  </span>
-                </div>
-                <div className={styles.servBottom}>
-                  Get the service!
-                </div>
-              </div>
-              <div className={styles.serviceCardRight}>
-                <Image src="https://unsplash.com/photos/MYbhN8KaaEc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY2ODQwMDE1&force=true&w=2400" alt="" width="400" height="300" />
-              </div>
+
+          </div>
+          <div id={styles.what}>
+            <div className={styles.whatCard} data-aos="fade-up">
+              <Image src='/assets/permanent.png' width={80} height={80}></Image>
+              <div className={styles.whatHeading}>Permanent Staffing</div>
+              <div className={styles.whatContent}>Hiring permanent staffing is a critical decision.
+                It requires careful under standing of your..</div>
             </div>
-            <div className={styles.serviceCard} data-aos="fade-up">
-              <div className={styles.serviceCardLeft}>
-                <div className={styles.servTop}>
-                  <div className={styles.serviceCardHeading}>Permanent Staffing</div>
-                  <span>We will provide candidates based on client requirements</span>
-                </div>
-                <div className={styles.servBottom}>
-                  Get the service!
-                </div>
-              </div>
-              <div className={styles.serviceCardRight}>
-                <Image src="https://unsplash.com/photos/Y5bvRlcCx8k/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY2ODQwMDk5&force=true" alt="" width="210" height="300" />
-              </div>
+            <div className={styles.whatCard} data-aos="fade-up">
+              <Image src='/assets/tempstaff.png' width={80} height={80}></Image>
+              <div className={styles.whatHeading}>Temporary Staffing</div>
+              <div className={styles.whatContent}>Temporary or contact staffing is crucial in today’s times.
+                Accessing the right resource purposefully..</div>
             </div>
-            <div className={styles.serviceCard} data-aos="fade-up" data-aos-delay="200">
-              <div className={styles.serviceCardLeft}>
-                <div className={styles.servTop}>
-                  <div className={styles.serviceCardHeading}>Application Developement</div>
-                  <span>We will make application based on your company requirements,that suite your needs</span>
-                </div>
-                <div className={styles.servBottom}>
-                  Get the service!
-                </div>
-              </div>
-              <div className={styles.serviceCardRight}>
-                <Image src="/test.jpg" alt="" width="200" height="300" />
-              </div>
+            <div className={styles.whatCard} data-aos="fade-up">
+              <Image src='/assets/hire.png' width={80} height={80}></Image>
+              <div className={styles.whatHeading}>Contract to Hire</div>
+              <div className={styles.whatContent}>Contract-to-hire Staffing solutions are an effective
+                business strategy for enterprises who wish..</div>
+            </div>
+            <div className={styles.whatCard} data-aos="fade-up">
+              <Image src='/assets/tehcnical.png' width={80} height={80}></Image>
+              <div className={styles.whatHeading}>Technical Staff</div>
+              <div className={styles.whatContent}>Technical staffing solutions require specialised skillsets
+                and experienced resources, to handle..</div>
             </div>
           </div>
         </section>
+
         <section id={styles.tech}>
           <div id={styles.servicesHead}>
             What tehchnology candidates do we have? <br />
@@ -240,11 +229,13 @@ export default function Home() {
             <Image src='/assets/war.png' height={100} width={100} />
           </div>
           <div id={styles.logoText}>Warrior&apos;s Group</div>
-          <div id={styles.footeradress}>Some adress,India</div>
+          <div id={styles.footeradress}>Lewes,USA</div>
         </div>
         <div id={styles.footerRight}>
-          <div className={styles.footerContact}>+1234567890</div>
-          <div className={styles.footerContact}>some exact Adress here</div>
+          <div className={styles.footerContact}>Fax: 302-645-1280</div>
+          <div className={styles.footerContact}>16192 Coastal Highway
+            Lewes, DE 19958 USA
+          </div>
           <div className={styles.footerContact}>Instagram</div>
           <div className={styles.footerContact}>Facebook</div>
           <div className={styles.footerContact}>Contact Form</div>
