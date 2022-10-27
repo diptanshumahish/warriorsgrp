@@ -2,7 +2,7 @@ import s from '../styles/services.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-export default function () {
+export default function Service () {
     return (
         <div id={s.container}>
             <Head>
