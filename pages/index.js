@@ -2,8 +2,15 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
   return (
     <div className={styles.container}>
       <Head>
@@ -45,7 +52,7 @@ export default function Home() {
           </div>
         </header>
         <section id={styles.services}>
-          <div id={styles.servicesHead}>
+          <div id={styles.servicesHead} >
             What services do we offer? <br />
             <span>Explore our services below</span>
           </div>
@@ -53,7 +60,7 @@ export default function Home() {
 
 
 
-            <div className={styles.serviceCard}>
+            <div className={styles.serviceCard} data-aos="fade-up">
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>IT Consulting</div>
@@ -70,7 +77,7 @@ export default function Home() {
                 <Image src="https://unsplash.com/photos/wzVQp_NRIHg/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjR8fGNvbXB1dGVyfGVufDB8fHx8MTY2NjgyOTQ3Mw&force=true" alt="" width="210" height="600" />
               </div>
             </div>
-            <div className={styles.serviceCard}>
+            <div className={styles.serviceCard} data-aos="fade-up">
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>Temporary Staffing</div>
@@ -86,7 +93,7 @@ export default function Home() {
                 <Image src="https://unsplash.com/photos/MYbhN8KaaEc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY2ODQwMDE1&force=true&w=2400" alt="" width="400" height="300" />
               </div>
             </div>
-            <div className={styles.serviceCard}>
+            <div className={styles.serviceCard} data-aos="fade-up">
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>Permanent Staffing</div>
@@ -100,7 +107,7 @@ export default function Home() {
                 <Image src="https://unsplash.com/photos/Y5bvRlcCx8k/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjY2ODQwMDk5&force=true" alt="" width="210" height="300" />
               </div>
             </div>
-            <div className={styles.serviceCard}>
+            <div className={styles.serviceCard} data-aos="fade-up">
               <div className={styles.serviceCardLeft}>
                 <div className={styles.servTop}>
                   <div className={styles.serviceCardHeading}>Application Developement</div>
@@ -126,10 +133,11 @@ export default function Home() {
             </Link>
             <div id={styles.techHomeArea}>
               <div id={styles.techCardsHome}>
-                <div className={styles.techCardHome}>Java FullStack</div>
-                <div className={styles.techCardHome}>Python</div>
-                <div className={styles.techCardHome}>.Net Developer</div>
-                <div className={styles.techCardHome}>Data Engineering</div>
+                <div className={styles.techCardHome} data-aos="fade-right"><div className={styles.techCardHomeText}>Java FullStack</div>  <Image src='/assets/java.svg' height='30' width='30' /></div>
+                <div className={styles.techCardHome} data-aos="fade-right" id={styles.py}><div className={styles.techCardHomeText} >Python</div>  <Image src='/assets/python.svg' height='30' width='30' /></div>
+                <div className={styles.techCardHome} data-aos="fade-right" id={styles.data}><div className={styles.techCardHomeText}>Data Scientist</div>  <Image src='/assets/java.svg' height='30' width='30' /></div>
+                <div className={styles.techCardHome} data-aos="fade-right" id={styles.net}><div className={styles.techCardHomeText}>.NET developer</div>  <Image src='/assets/net.svg' height='30' width='30' /></div>
+
               </div>
               <div id={styles.img}>
                 <Image src='/techback.svg' height='500' width='500' />
@@ -139,8 +147,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-
     </div>
   )
 }
