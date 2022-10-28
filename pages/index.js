@@ -22,6 +22,14 @@ export default function Home() {
 
         <title>Warrior&apos;s Group</title>
         <meta name="Warriors Group" content="The official site for the Warriors&apos; Group Organization" />
+        <meta name='description' content='The official site for the Warriors&apos; Group LLC' />
+        <meta property='og:locale' content='en_US' />
+        <meta name="author" content="Diptanshu Mahish" />
+        <meta property='og:type' content='website' />
+        <meta property="og:site_name" content="Warriors Group LLC" />
+        <meta property='og:title' content='Warriors Group' />
+        <meta property='og:description' content='The official site for the Warriors&apos; Group LLC' />
+        <meta name='robots' content='index, follow, max-snippet:-1, max-image-preview:large' />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div id="mobMenuFull">
