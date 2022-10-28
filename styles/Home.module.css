@@ -1,4 +1,3 @@
-
 #topStyle {
   position: absolute;
   right: 0;
@@ -19,6 +18,7 @@
 
 #headerLeft span {
   font-weight: 700;
+  font-size: 3rem;
   color: var(--themeColor);
 }
 
@@ -61,12 +61,14 @@
 
 #whoContent span {
   font-weight: 600;
+  font-size: 1.5rem;
   color: var(--themeColor);
 }
 
 #what {
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-evenly;
   gap: 2rem;
 }
@@ -333,7 +335,7 @@
   }
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:770px) {
 
 
   #abtUsArea Img {
@@ -361,5 +363,86 @@
 
   }
 
+
+}
+
+@media screen and (max-width:600px) {
+  #topStyle {
+    left: 0;
+    right: unset;
+    width: 20rem;
+    height: 60rem;
+  }
+
+  #headerLeft {
+    width: 100%;
+
+  }
+
+  #headerRight {
+    width: 100%;
+    left: 0rem;
+    /* height: 50vh; */
+    padding: 0;
+    margin-bottom: -20rem;
+  }
+
+  #headerRight img {
+    left: 4rem;
+  }
+
+  #abtUsArea {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #abtusText {
+    width: 100%;
+    text-align: left;
+    font-size: 3rem;
+  }
+
+  #whoContent span {
+    font-size: 2rem;
+  }
+
+  #abtUsArea Img {
+    height: 80%;
+    width: 90%;
+    padding: 2rem 0;
+  }
+
+  #what {
+    flex-direction: column;
+    padding: 5rem 0;
+  }
+
+  .whatContent {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .whatHeading {
+    font-size: 2.5rem;
+  }
+
+  #img img {
+    display: none;
+  }
+
+  #servicesHead,
+  #recruitHead {
+    width: 100%;
+
+  }
+
+  #techCardsHome {
+    width: 100%;
+  }
+
+  .techCardHome {
+    width: 82%;
+    font-size: 1.5rem;
+  }
 
 }

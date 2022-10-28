@@ -113,3 +113,47 @@
         height: 80%;
     }
 }
+
+@media screen and (max-width:600px) {
+    #whoImage Img {
+        width: 60%;
+        height: 60%;
+    }
+
+    #who {
+        margin-top: 5rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #whoHead {
+        padding: 3rem 0;
+        padding-bottom: 1rem;
+    }
+
+    #port {
+        flex-direction: column;
+        padding-bottom: 7rem;
+        padding-top: 7rem;
+    }
+
+    #whoSub {
+        width: 100%;
+        font-size: 1.5rem;
+
+
+    }
+
+    #whoImage {
+        margin-left: -5rem;
+    }
+
+    #portText {
+        padding: 0 0;
+    }
+
+    .portSer {
+        font-size: 1.7rem;
+    }
+}

@@ -133,3 +133,17 @@ section {
     font-size: 64%;
   }
 }
+
+@media screen and (max-width:600px) {
+  * {
+    font-size: 58%;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+
+}

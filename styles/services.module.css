@@ -103,3 +103,23 @@
     height: 190px;
   }
 }
+
+@media screen and (max-width:600px) {
+
+  #servicesHead,
+  #recruitHead {
+    margin-top: 5rem;
+    font-size: 3.5rem;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  #serviceCards {
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard {
+    height: 170px;
+  }
+}

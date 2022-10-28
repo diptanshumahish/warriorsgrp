@@ -24,6 +24,7 @@
 
 #mainTextSub span {
     font-weight: 600;
+    font-size: 1.2rem;
 }
 
 #techIntro {
@@ -148,5 +149,38 @@
     #extraArea Img {
         width: 50%;
         height: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #techdetailst {
+        flex-direction: column-reverse;
+    }
+
+    #techCards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #extraArea {
+        flex-direction: column;
+    }
+
+    #explore {
+        padding: 2rem 0;
+        font-weight: 600;
+    }
+
+    #remove {
+        display: none;
+    }
+
+    .extraContent {
+        width: 100vw;
+    }
+
+    .extraCard {
+        width: 80vw;
+        padding: 2rem;
+        font-size: 1.5rem;
     }
 }

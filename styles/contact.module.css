@@ -95,3 +95,22 @@
         display: none;
     }
 }
+
+@media screen and (max-width:600px) {
+    #formArea {
+        flex-direction: column;
+    }
+
+    .forEle {
+
+        font-size: 1.6rem;
+    }
+
+    .forEle input::placeholder {
+        font-size: 1.7rem;
+    }
+
+    #submit {
+        font-size: 1.7rem;
+    }
+}

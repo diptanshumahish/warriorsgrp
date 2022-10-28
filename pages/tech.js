@@ -252,7 +252,7 @@ export default function Tech() {
                                 </Link>
 
                             </div>
-                            <Image src='/assets/services.svg' height={500} width={500}></Image>
+                            <div id={t.remove}></div>
                         </div>
                     </div>
                 </div>
