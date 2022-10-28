@@ -50,7 +50,7 @@ export default function Home() {
 
           </div>
           <div id={styles.headerRight}>
-            <Image src="/test.jpg" alt="" srcset="" width="348" height="500" />
+            <Image src="/test.jpg" alt="Home image" srcset="" width="348" height="500" />
           </div>
         </header>
         <section id={styles.abtUs}>
@@ -217,7 +217,9 @@ export default function Home() {
               </div>
 
             </div>
-            <Image src="/recruit.svg" width={500} height={500} data-aos="fade-left" />
+            <div id={styles.rctImage}>
+              <Image src="/recruit.svg" width={500} height={500} data-aos="fade-left" alt="recruit Image" />
+            </div>
 
           </div>
         </section>

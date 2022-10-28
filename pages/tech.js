@@ -53,7 +53,7 @@ export default function Tech() {
                                 We work all times to employ the qualified individuals who match your corporate culture and also ensure that it is not just hiring but about providing a skilled individual, who in turn develops a <span>mutual relationship</span> with the organization. At <span>Warriors Group</span> every candidate is tested on his abilities, strength, and weakness, retaining and referring <span>the best</span> aspirant for the job, thus ensure an optimistic and successful future for both the client and the candidate.</div>
                         </div>
                         <div id={t.mainTextImage}>
-                            <Image src='/assets/solution.svg' width={500} height={500} />
+                            <Image src='/assets/solution.svg' width={500} height={500} alt="solution" />
                         </div>
                     </div>
                     <div id={t.explore}>

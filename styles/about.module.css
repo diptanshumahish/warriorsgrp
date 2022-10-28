@@ -58,7 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     background-color: var(--themeSec)
 }
 
@@ -83,6 +83,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 4rem;
+    overflow: hidden;
 }
 
 #inspHead {
@@ -104,4 +105,33 @@
     width: fit-content;
     font-size: 1.2rem;
     box-shadow: rgba(100, 100, 111, 0.429) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width:1086px) {
+    #whoImage Img {
+        width: auto;
+        height: 90%;
+    }
+
+    #img Img {
+        width: auto;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:890px) {
+    #whoImage Img {
+        width: auto;
+        height: 80%;
+    }
+
+    #img Img {
+        width: auto;
+        height: 80%;
+    }
+
+    #inspImage Img {
+        width: auto;
+        height: 80%;
+    }
 }

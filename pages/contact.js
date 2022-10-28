@@ -13,7 +13,7 @@ export default function Contact() {
                 <nav>
                     <div id={s.navLeft}>
                         <Link href='/'>
-                            <div id={s.logo}>Warriors&apos; Group</div>
+                            <div id={s.logo}>Warriors Group</div>
                         </Link>
                         <Link href='/'>
                             <div className={s.navEle}>Home</div>
