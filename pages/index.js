@@ -96,7 +96,7 @@ export default function Home() {
         <header data-aos="fade-up">
           <div id={styles.headerLeft}>
             The Best <span>Staffing</span> and <span>Hiring</span> solutions rightaway! <br />
-            <div id={styles.headerCta}>Exlpore more!</div>
+            <Link href='/services'><div id={styles.headerCta}>Exlpore more!</div></Link>
 
           </div>
           <div id={styles.headerRight}>
