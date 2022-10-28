@@ -16,6 +16,7 @@ export default function Contact() {
                         document.getElementById("mobMenuFull").style.display = "none";
                     }
                 }>
+                     ✖
                 </div>
                 <div id="mobMenuInt">
                     <Link href='/'>
