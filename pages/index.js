@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import Script from 'next/script'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 
@@ -14,11 +15,36 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+
         <title>Warrior&apos;s Group</title>
         <meta name="Warriors Group" content="The official site for the Warriors&apos; Group Organization" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div id="mobMenuFull">
+        <div id="mobCross">
+          ✖
+        </div>
+        <div id="mobMenuInt">
+          <Link href='/'>
+            <div className="mobNav">Home</div>
+          </Link>
+          <Link href='/services'>
+            <div className="mobNav">Services</div>
+          </Link>
+
+          <Link href="/tech">
+            <div className="mobNav">Technologies</div>
+          </Link>
+          <Link href='/about'>
+            <div className="mobNav">About Us</div></Link>
+          <Link href='/contact'>
+            <div id="mobContact" className="mobNav">
+              Contact Us
+            </div></Link>
+        </div>
+      </div>
       <main>
+
         <nav>
           <div id="navLeft">
             <Link href='/'>
@@ -41,6 +67,9 @@ export default function Home() {
             <div id="navRight">
               Contact Us
             </div></Link>
+          <div id="navMob">
+            <Image src='/assets/menu.png' width={20} height={20} />
+          </div>
         </nav>
         <div id={styles.topStyle}></div>
         <header data-aos="fade-up">
@@ -253,6 +282,8 @@ export default function Home() {
         </div>
 
       </footer>
+      <script src="/navv.js"></script>
+
     </div>
   )
 }

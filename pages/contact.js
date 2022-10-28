@@ -9,6 +9,30 @@ export default function Contact() {
             <Head>
                 <title>Contact@wg</title>
             </Head>
+            <div id="mobMenuFull">
+                <div id="mobCross">
+                    ✖
+                </div>
+                <div id="mobMenuInt">
+                    <Link href='/'>
+                        <div className="mobNav">Home</div>
+                    </Link>
+                    <Link href='/services'>
+                        <div className="mobNav">Services</div>
+                    </Link>
+
+                    <Link href="/tech">
+                        <div className="mobNav">Technologies</div>
+                    </Link>
+                    <Link href='/about'>
+                        <div className="mobNav">About Us</div></Link>
+                    <Link href='/contact'>
+                        <div id="mobContact" className="mobNav">
+                            Contact Us
+                        </div></Link>
+
+                </div>
+            </div>
             <main>
                 <nav>
                     <div id="navLeft">
@@ -32,6 +56,9 @@ export default function Contact() {
                         <div id="navRight">
                             Contact Us
                         </div></Link>
+                    <div id="navMob">
+                        <Image src='/assets/menu.png' width={20} height={20} />
+                    </div>
                 </nav>
                 <div id={s.back}>
                     <Link href='/'>
@@ -78,6 +105,8 @@ export default function Contact() {
 
                 </div>
             </main>
+            <script src="/navv.js"></script>
+
         </div>
 
     )

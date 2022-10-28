@@ -8,6 +8,29 @@ export default function Service() {
             <Head>
                 <title>Services @WG</title>
             </Head>
+            <div id="mobMenuFull">
+                <div id="mobCross">
+                    ✖
+                </div>
+                <div id="mobMenuInt">
+                    <Link href='/'>
+                        <div className="mobNav">Home</div>
+                    </Link>
+                    <Link href='/services'>
+                        <div className="mobNav">Services</div>
+                    </Link>
+
+                    <Link href="/tech">
+                        <div className="mobNav">Technologies</div>
+                    </Link>
+                    <Link href='/about'>
+                        <div className="mobNav">About Us</div></Link>
+                    <Link href='/contact'>
+                        <div id="mobContact" className="mobNav">
+                            Contact Us
+                        </div></Link>
+                </div>
+            </div>
             <main>
                 <nav>
                     <div id="navLeft">
@@ -31,6 +54,9 @@ export default function Service() {
                         <div id="navRight">
                             Contact Us
                         </div></Link>
+                    <div id="navMob">
+                        <Image src='/assets/menu.png' width={20} height={20} />
+                    </div>
                 </nav>
                 <section id={s.services}>
                     <div id={s.servicesHead} >
@@ -109,6 +135,8 @@ export default function Service() {
                     </div>
                 </section>
             </main>
+            <script src="/navv.js"></script>
+
         </div>
     )
 }

@@ -16,6 +16,29 @@ export default function About() {
             <Head>
                 <title>About Us </title>
             </Head>
+            <div id="mobMenuFull">
+                <div id="mobCross">
+                    ✖
+                </div>
+                <div id="mobMenuInt">
+                    <Link href='/'>
+                        <div className="mobNav">Home</div>
+                    </Link>
+                    <Link href='/services'>
+                        <div className="mobNav">Services</div>
+                    </Link>
+
+                    <Link href="/tech">
+                        <div className="mobNav">Technologies</div>
+                    </Link>
+                    <Link href='/about'>
+                        <div className="mobNav">About Us</div></Link>
+                    <Link href='/contact'>
+                        <div id="mobContact" className="mobNav">
+                            Contact Us
+                        </div></Link>
+                </div>
+            </div>
             <nav>
                 <div id="navLeft">
                     <Link href='/'>
@@ -34,10 +57,14 @@ export default function About() {
                     <Link href='/about'>
                         <div className="navEle">About Us</div></Link>
                 </div>
+
                 <Link href='/contact'>
                     <div id="navRight">
                         Contact Us
                     </div></Link>
+                <div id="navMob">
+                    <Image src='/assets/menu.png' width={20} height={20} />
+                </div>
             </nav>
             <main>
                 <div id={a.who} data-aos="fade-up">
@@ -84,6 +111,8 @@ export default function About() {
                 </div>
 
             </main>
+            <script src="/navv.js"></script>
+
         </div>
     )
 }

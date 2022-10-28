@@ -85,6 +85,14 @@ section {
   overflow: hidden;
 }
 
+#navMob {
+  display: none;
+}
+
+#mobMenuFull {
+  display: none;
+}
+
 @media screen and (min-width:2000px) {
   * {
     font-size: 105%;
@@ -135,6 +143,10 @@ section {
 }
 
 @media screen and (max-width:600px) {
+  #navMob {
+    display: block;
+  }
+
   * {
     font-size: 58%;
   }
@@ -143,6 +155,59 @@ section {
     flex-direction: column-reverse;
     align-items: flex-start;
     justify-content: center;
+  }
+
+  nav {
+    padding: 1.5rem;
+  }
+
+  .navEle,
+  #navRight {
+    display: none;
+  }
+
+  #mobMenuFull {
+
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms ease;
+    display: none;
+  }
+
+  #mobMenuInt {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .mobNav {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  #mobContact {
+    background-color: var(--themeSec);
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+  }
+
+  #mobCross {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
   }
 
 
