@@ -65,7 +65,7 @@ export default function Home() {
               <div id={styles.whoContent}>
                 <span>Warriors Group</span> provides quality IT talent with outstanding customer satisfaction along with <span>innovative resource planning</span> and <span>staffing solutions.</span>
                 <br /> <br />
-                In this competitive era of digital, Information Technology talents need to perform under consistent stress with strict delivery timelines. We play a vital role to evaluate best fit talent for our valued customers. We also strive for consistent performance, hinging on evaluation of customer's strategic plan and has the experience to carry it out.              </div>
+                In this competitive era of digital, Information Technology talents need to perform under consistent stress with strict delivery timelines. We play a vital role to evaluate best fit talent for our valued customers. We also strive for consistent performance, hinging on evaluation of customer&apos;s strategic plan and has the experience to carry it out.              </div>
             </div>
 
           </div>

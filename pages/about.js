@@ -46,7 +46,7 @@ export default function About() {
                         <div id={a.whoSub}>
                             Our mission is to build centres of excellence that foster a high-quality experience for our clients and partners through the highest standards of ethics, quality, and mutual respect.
 
-                            Our seasoned team of recruiters uses cutting-edge technology and subject-matter experience to offer outstanding talent to our clients. When it comes to finding the best personnel, whether you're an established firm or an experienced professional, we can be your go-to source.
+                            Our seasoned team of recruiters uses cutting-edge technology and subject-matter experience to offer outstanding talent to our clients. When it comes to finding the best personnel, whether you are an established firm or an experienced professional, we can be your go-to source.
                         </div>
                         <div id={a.whoHead}>Our Vision</div>
                         <div id={a.whoSub}>
@@ -64,7 +64,7 @@ export default function About() {
                     <div id={a.portText}>
                         <div id={a.serHead}> Some key features of our oraganization:</div>
                         <div className={a.portSer}>✦ Hassle-free business solutions that you can rely on.</div>
-                        <div className={a.portSer}>✦ We believe in "Clients success is our success".</div>
+                        <div className={a.portSer}>✦ We believe in &ldquo;Clients success is our success&rdquo;.</div>
                         <div className={a.portSer}>✦ At Warriors Group Talent meets appreciation and wonders occur</div>
                         <div className={a.portSer}>✦ Our promises are not vague ones, we actually fulfil them</div>
 
