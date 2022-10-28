@@ -20,25 +20,25 @@ export default function Tech() {
             </Head>
             <main>
                 <nav>
-                    <div id={t.navLeft}>
+                    <div id="navLeft">
                         <Link href='/'>
-                            <div id={t.logo}>Warriors Group</div>
+                            <div id="logo">Warriors Group</div>
                         </Link>
                         <Link href='/'>
-                            <div className={t.navEle}>Home</div>
+                            <div className="navEle">Home</div>
                         </Link>
                         <Link href='/services'>
-                            <div className={t.navEle}>Services</div>
+                            <div className="navEle">Services</div>
                         </Link>
 
                         <Link href="/tech">
-                            <div className={t.navEle}>Technologies</div>
+                            <div className="navEle">Technologies</div>
                         </Link>
                         <Link href='/about'>
-                            <div className={t.navEle}>About Us</div></Link>
+                            <div className="navEle">About Us</div></Link>
                     </div>
                     <Link href='/contact'>
-                        <div id={t.navRight}>
+                        <div id="navRight">
                             Contact Us
                         </div></Link>
                 </nav>

@@ -17,25 +17,25 @@ export default function About() {
                 <title>About Us </title>
             </Head>
             <nav>
-                <div id={a.navLeft}>
+                <div id="navLeft">
                     <Link href='/'>
-                        <div id={a.logo}>Warriors Group</div>
+                        <div id="logo">Warriors Group</div>
                     </Link>
                     <Link href='/'>
-                        <div className={a.navEle}>Home</div>
+                        <div className="navEle">Home</div>
                     </Link>
                     <Link href='/services'>
-                        <div className={a.navEle}>Services</div>
+                        <div className="navEle">Services</div>
                     </Link>
 
                     <Link href="/tech">
-                        <div className={a.navEle}>Technologies</div>
+                        <div className="navEle">Technologies</div>
                     </Link>
                     <Link href='/about'>
-                        <div className={a.navEle}>About Us</div></Link>
+                        <div className="navEle">About Us</div></Link>
                 </div>
                 <Link href='/contact'>
-                    <div id={a.navRight}>
+                    <div id="navRight">
                         Contact Us
                     </div></Link>
             </nav>

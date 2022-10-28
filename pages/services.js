@@ -10,25 +10,25 @@ export default function Service() {
             </Head>
             <main>
                 <nav>
-                    <div id={s.navLeft}>
+                    <div id="navLeft">
                         <Link href='/'>
-                            <div id={s.logo}>Warriors Group</div>
+                            <div id="logo">Warriors Group</div>
                         </Link>
                         <Link href='/'>
-                            <div className={s.navEle}>Home</div>
+                            <div className="navEle">Home</div>
                         </Link>
                         <Link href='/services'>
-                            <div className={s.navEle}>Services</div>
+                            <div className="navEle">Services</div>
                         </Link>
 
                         <Link href="/tech">
-                            <div className={s.navEle}>Technologies</div>
+                            <div className="navEle">Technologies</div>
                         </Link>
                         <Link href='/about'>
-                            <div className={s.navEle}>About Us</div></Link>
+                            <div className="navEle">About Us</div></Link>
                     </div>
                     <Link href='/contact'>
-                        <div id={s.navRight}>
+                        <div id="navRight">
                             Contact Us
                         </div></Link>
                 </nav>
