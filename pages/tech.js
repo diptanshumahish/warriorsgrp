@@ -266,12 +266,17 @@ export default function Tech() {
                     <div id={t.footeradress}>Lewes,USA</div>
                 </div>
                 <div id={t.footerRight}>
-                    <div className={t.footerContact}>Fax: 302-645-1280</div>
+
                     <div className={t.footerContact}>16192 Coastal Highway
                         Lewes, DE 19958 USA</div>
-                    <div className={t.footerContact}>Instagram</div>
-                    <div className={t.footerContact}>Facebook</div>
-                    <div className={t.footerContact}>Contact Form</div>
+                    <div className={t.footerContact}>Fax: 302-645-1280</div>
+                    <div className={t.footerContact}> ☎+1 (302)-476-2579</div>
+                    <div className={t.footerContact} id={t.socials}>
+                        <div className={t.socialIco}><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
+                        <div className={t.socialIco}><Image src='/assets/insta.png' width={30} height={30} /></div>
+                        <div className={t.socialIco}><Image src='/assets/fb.png' width={30} height={30} /></div>
+                    </div>
+
                 </div>
 
             </footer>

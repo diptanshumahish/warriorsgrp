@@ -151,3 +151,12 @@
     flex-direction: column;
     gap: 0.5rem;
 }
+
+#socials {
+
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
