@@ -74,5 +74,34 @@
 }
 
 .portSer {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+#insp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+
+#inspHead {
+    font-size: 3rem;
+    color: var(--themeColor);
+    font-weight: 600;
+}
+
+#inspSub {
+    font-size: 1.2rem;
+}
+
+#contactBtn {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: var(--themeColor);
+    color: white;
+    border-radius: 0.5rem;
+    width: fit-content;
+    font-size: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.429) 0px 7px 29px 0px;
 }

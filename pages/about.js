@@ -2,7 +2,14 @@ import Head from "next/head"
 import a from "../styles/about.module.css"
 import Link from "next/link"
 import Image from "next/image"
+import { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 export default function About() {
+    useEffect(() => {
+        Aos.init();
+        Aos.refresh();
+    }, []);
     return (
 
         <div id={a.container}>
@@ -33,37 +40,49 @@ export default function About() {
                     </div></Link>
             </nav>
             <main>
-                <div id={a.who}>
+                <div id={a.who} data-aos="fade-up">
                     <div id={a.whoText}>
-                        <div id={a.whoHead}>About Warriors Group</div>
-                        <div id={a.whoSub}>Warriors Group is a premier global consulting hub providing a <span>gamut of technology</span> services with superior capabilities in cutting edge digital offerings around
-                            <span> Blockchain, Analytics, Industrial IoT,</span>
-                            Big Data and Mobile Applications development.
-                            <br />
-                            Our team of thinkers, engineers and specialists are backed by extensive <span> Blockchain, Analytics, Industrial IoT,</span> in some of the most advanced technology solutions for Fortune 500 companies across industries and in different geographies.
-                            <br />
-                            With our capabilities and experience, we offer clients <span> Blockchain, Analytics, Industrial IoT,</span> that merge the triad of purposeful concepts, modern development practices, and subject matter expertise. Our clients are our cornerstone, and with them we’ve grown and expanded to design customized hiring solutions that fulfil specific big and small needs.
-                            <br />
-                            Our company is built upon transparency,<span> ethical</span> business practices, diligence and a constant endeavor to deliver the best. Towards this end, we provide <span> ethical</span> results, underlined by quality and commitment, and match the right talent with the right customer.</div>
+                        <div id={a.whoHead}>Our Mission</div>
+                        <div id={a.whoSub}>
+                            Our mission is to build centres of excellence that foster a high-quality experience for our clients and partners through the highest standards of ethics, quality, and mutual respect.
+
+                            Our seasoned team of recruiters uses cutting-edge technology and subject-matter experience to offer outstanding talent to our clients. When it comes to finding the best personnel, whether you're an established firm or an experienced professional, we can be your go-to source.
+                        </div>
+                        <div id={a.whoHead}>Our Vision</div>
+                        <div id={a.whoSub}>
+                            We strive to provide our customers with the best possible service that meets all of their requirements. We are working to redefine the employment and consulting sector dynamics as a strong, service-first, trusted globally.
+                        </div>
                     </div>
                     <div id={a.whoImage}>
                         <Image src='/assets/war.png' width={400} height={400} />
                     </div>
                 </div>
-                <div id={a.port}>
+                <div id={a.port} data-aos="fade-up">
                     <div id={a.img}>
                         <Image src='/assets/ser.svg' width={400} height={400} />
                     </div>
                     <div id={a.portText}>
-                        <div id={a.serHead}> Our Services include:</div>
-                        <div className={a.portSer}>1.Digital Consulting</div>
-                        <div className={a.portSer}>2.Application Development and Maintenance</div>
-                        <div className={a.portSer}>3.Enterprise Applications Platforms</div>
-                        <div className={a.portSer}>4.Leading-Edge Product Development</div>
-                        <div className={a.portSer}>5.Software Services</div>
+                        <div id={a.serHead}> Some key features of our oraganization:</div>
+                        <div className={a.portSer}>✦ Hassle-free business solutions that you can rely on.</div>
+                        <div className={a.portSer}>✦ We believe in "Clients success is our success".</div>
+                        <div className={a.portSer}>✦ At Warriors Group Talent meets appreciation and wonders occur</div>
+                        <div className={a.portSer}>✦ Our promises are not vague ones, we actually fulfil them</div>
+
 
                     </div>
                 </div>
+                <div id={a.insp}>
+                    <div id={a.inspText} data-aos="fade-right">
+                        <div id={a.inspHead}>Feeling inspired or having questions?</div>
+                        <div id={a.inspSub}>Do not hesitate to contact us !</div>
+                        <Link href='/contact'> <div id={a.contactBtn}>Contact Us</div></Link>
+
+                    </div>
+                    <div id={a.inspImage}>
+                        <Image src='/assets/happy.svg' height={500} width={500} data-aos="fade-left" />
+                    </div>
+                </div>
+
             </main>
         </div>
     )

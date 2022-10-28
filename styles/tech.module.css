@@ -28,6 +28,29 @@
 
 }
 
+#techdetailst {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+#mainTextHeading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--themeColor);
+}
+
+#mainTextSub {
+    font-size: 1.2rem;
+}
+
+#mainTextSub span {
+    font-weight: 600;
+}
+
 #techIntro {
     padding-top: 2rem;
 }
@@ -44,6 +67,11 @@
     gap: 1rem;
     margin-top: 1rem;
 
+}
+
+#explore {
+    font-size: 3rem;
+    font-weight: 500;
 }
 
 .techCard {

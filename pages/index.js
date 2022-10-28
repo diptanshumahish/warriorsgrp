@@ -63,8 +63,9 @@ export default function Home() {
 
               </div>
               <div id={styles.whoContent}>
-                Warriors Group is a premier global consulting hub providing a gamut of technology services with superior capabilities in cutting edge digital offerings around Blockchain, Analytics, Industrial IoT, Big Data and Mobile Applications development.
-              </div>
+                <span>Warriors Group</span> provides quality IT talent with outstanding customer satisfaction along with <span>innovative resource planning</span> and <span>staffing solutions.</span>
+                <br /> <br />
+                In this competitive era of digital, Information Technology talents need to perform under consistent stress with strict delivery timelines. We play a vital role to evaluate best fit talent for our valued customers. We also strive for consistent performance, hinging on evaluation of customer's strategic plan and has the experience to carry it out.              </div>
             </div>
 
           </div>
@@ -73,13 +74,12 @@ export default function Home() {
 
             <div id={styles.abtusText} data-aos="fade-left">
               <div id={styles.abtUsHead}>
-                Why us? <br />
+                Our Expertise <br />
 
               </div>
               <div id={styles.whoContent}>
-                When you partner with <span>Warriors Group</span>, we provide you with the talent, tools and services you need to innovate <span>faster</span>, keep ahead of the competition, and demonstrate the <span>true value of IT</span>. You get the experts you need, when you need them, freeing you to focus on innovation.
-
-                Let Warriors Tech dedicated monitoring and administration professionals help you build an <span>A-team</span> to manage your critical systems, so you can focus on your business.              </div>
+                Our Solutions are <span>client Centric</span>, <span>cost effective</span> and <span>best in class</span> , So you can <span>rely</span> on them.
+              </div>
             </div>
 
           </div>
@@ -87,34 +87,33 @@ export default function Home() {
             <div className={styles.whatCard} data-aos="fade-up">
               <Image src='/assets/permanent.png' width={80} height={80}></Image>
               <div className={styles.whatHeading}>Permanent Staffing</div>
-              <div className={styles.whatContent}>Hiring permanent staffing is a critical decision.
-                It requires careful under standing of your..</div>
+              <div className={styles.whatContent}>
+                Permanent hiring solutions are quite crucial, With our organization you can rely easily for that
+              </div>
             </div>
-            <div className={styles.whatCard} data-aos="fade-up">
-              <Image src='/assets/tempstaff.png' width={80} height={80}></Image>
-              <div className={styles.whatHeading}>Temporary Staffing</div>
-              <div className={styles.whatContent}>Temporary or contact staffing is crucial in today’s times.
-                Accessing the right resource purposefully..</div>
-            </div>
-            <div className={styles.whatCard} data-aos="fade-up">
-              <Image src='/assets/hire.png' width={80} height={80}></Image>
-              <div className={styles.whatHeading}>Contract to Hire</div>
-              <div className={styles.whatContent}>Contract-to-hire Staffing solutions are an effective
-                business strategy for enterprises who wish..</div>
-            </div>
-            <div className={styles.whatCard} data-aos="fade-up">
+            <div className={styles.whatCard} data-aos="fade-up" data-aos-delay="100">
               <Image src='/assets/tehcnical.png' width={80} height={80}></Image>
               <div className={styles.whatHeading}>Technical Staff</div>
-              <div className={styles.whatContent}>Technical staffing solutions require specialised skillsets
-                and experienced resources, to handle..</div>
+              <div className={styles.whatContent}>Our tehcnical solutions are the best in class , you can easily rely on them </div>
             </div>
+            <div className={styles.whatCard} data-aos="fade-up" data-aos-delay="200">
+              <Image src='/assets/tempstaff.png' width={80} height={80}></Image>
+              <div className={styles.whatHeading}>Temporary Staffing</div>
+              <div className={styles.whatContent}>Most people are in need for temporary staffing , Do not worry we got you covered for the same.</div>
+            </div>
+            <div className={styles.whatCard} data-aos="fade-up" data-aos-delay="300">
+              <Image src='/assets/hire.png' width={80} height={80}></Image>
+              <div className={styles.whatHeading}>Contract Hiring</div>
+              <div className={styles.whatContent}>More suitable for most organizations, Here consider this service sorted for you</div>
+            </div>
+
           </div>
         </section>
 
         <section id={styles.tech}>
           <div id={styles.servicesHead}>
-            What tehchnology candidates do we have? <br />
-            <span>Explore our major tech here</span>
+            Explore our major tech here: <br />
+
 
             <div id={styles.techHomeArea}>
               <div id={styles.techCardsHome}>

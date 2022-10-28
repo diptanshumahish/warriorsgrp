@@ -43,8 +43,24 @@ export default function Tech() {
                         </div></Link>
                 </nav>
                 <div className={t.techBack}>
+                    <div id={t.techdetailst} data-aos="fade-up">
+                        <div id={t.mainTextContent}>
+                            <div id={t.mainTextHeading}>
+                                Our Staffing Solutions
+                            </div>
+                            <div id={t.mainTextSub}>The workforce is an <span>asset</span> for every organization. <span>Warriors Group</span> understands it and pay great heed to the clients staffing needs. Our team <span>works efficiently</span> in providing talented and qualified workforce for our clients, which fully meets the staffing criteria. We have created a comprehensive platform to meet the varied project and client's needs. Our dedicated staffing platform enable our clients to choose from a various range of staffing options i.e. contract to hire to permanent staffing; this helps in choosing the best for both short term and long term projects. This also empowers to choose a reliable work force within a budget. We strive to provide workforce to our clients in all fields.
 
-                    <div id={t.techCards} data-aos="fade-up">
+                                We work all times to employ the qualified individuals who match your corporate culture and also ensure that it is not just hiring but about providing a skilled individual, who in turn develops a <span>mutual relationship</span> with the organization. At <span>Warriors Group</span> every candidate is tested on his abilities, strength, and weakness, retaining and referring <span>the best</span> aspirant for the job, thus ensure an optimistic and successful future for both the client and the candidate.</div>
+                        </div>
+                        <div id={t.mainTextImage}>
+                            <Image src='/assets/solution.svg' width={500} height={500} />
+                        </div>
+                    </div>
+                    <div id={t.explore}>
+                        Explore what we offfer:
+                    </div>
+
+                    <div id={t.techCards} data-aos="fade-right" >
                         {/* 1 */}
                         <Link href='/contact'>
 
