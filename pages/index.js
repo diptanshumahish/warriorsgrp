@@ -23,6 +23,7 @@ export default function Home() {
         <title>Warrior&apos;s Group</title>
         <meta name="Warriors Group" content="The official site for the Warriors&apos; Group Organization" />
         <meta name='description' content='The official site for the Warriors&apos; Group LLC' />
+        <meta name='title' content='Warriors Group' />
         <meta property='og:locale' content='en_US' />
         <meta name="author" content="Diptanshu Mahish" />
         <meta property='og:type' content='website' />
