@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 
 
+
 export default function Tech() {
     useEffect(() => {
         Aos.init();
@@ -19,8 +20,11 @@ export default function Tech() {
                 <title>Technologies @WG</title>
             </Head>
             <div id="mobMenuFull">
-                <div id="mobCross">
-                    ✖
+                <div id="mobCross" onClick={
+                    () => {
+                        document.getElementById("mobMenuFull").style.display = "none";
+                    }
+                }>
                 </div>
                 <div id="mobMenuInt">
                     <Link href='/'>
@@ -64,7 +68,11 @@ export default function Tech() {
                         <div id="navRight">
                             Contact Us
                         </div></Link>
-                    <div id="navMob">
+                    <div id="navMob" onClick={() => {
+
+                        document.getElementById("mobMenuFull").style.display = "flex";
+
+                    }}>
                         <Image src='/assets/menu.png' width={20} height={20} />
                     </div>
                 </nav>
@@ -306,7 +314,7 @@ export default function Tech() {
                 </div>
 
             </footer>
-            <script src="/navv.js"></script>
+
 
         </div>
     )

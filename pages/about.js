@@ -17,7 +17,11 @@ export default function About() {
                 <title>About Us </title>
             </Head>
             <div id="mobMenuFull">
-                <div id="mobCross">
+                <div id="mobCross" onClick={
+                    () => {
+                        document.getElementById("mobMenuFull").style.display = "none";
+                    }
+                }>
                     ✖
                 </div>
                 <div id="mobMenuInt">
@@ -62,7 +66,11 @@ export default function About() {
                     <div id="navRight">
                         Contact Us
                     </div></Link>
-                <div id="navMob">
+                <div id="navMob" onClick={() => {
+
+                    document.getElementById("mobMenuFull").style.display = "flex";
+
+                }}>
                     <Image src='/assets/menu.png' width={20} height={20} />
                 </div>
             </nav>
@@ -111,7 +119,7 @@ export default function About() {
                 </div>
 
             </main>
-            <script src="/navv.js"></script>
+
 
         </div>
     )

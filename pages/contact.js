@@ -3,6 +3,7 @@ import s from '../styles/contact.module.css'
 import Link from "next/link";
 import Image from "next/image";
 
+
 export default function Contact() {
     return (
         <div id={s.container}>
@@ -10,8 +11,11 @@ export default function Contact() {
                 <title>Contact@wg</title>
             </Head>
             <div id="mobMenuFull">
-                <div id="mobCross">
-                    ✖
+                <div id="mobCross" onClick={
+                    () => {
+                        document.getElementById("mobMenuFull").style.display = "none";
+                    }
+                }>
                 </div>
                 <div id="mobMenuInt">
                     <Link href='/'>
@@ -56,7 +60,11 @@ export default function Contact() {
                         <div id="navRight">
                             Contact Us
                         </div></Link>
-                    <div id="navMob">
+                    <div id="navMob" onClick={() => {
+
+                        document.getElementById("mobMenuFull").style.display = "flex";
+
+                    }}>
                         <Image src='/assets/menu.png' width={20} height={20} />
                     </div>
                 </nav>
@@ -105,7 +113,7 @@ export default function Contact() {
 
                 </div>
             </main>
-            <script src="/navv.js"></script>
+
 
         </div>
 

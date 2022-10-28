@@ -3,16 +3,20 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import { useEffect } from 'react'
-import Script from 'next/script'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 
 export default function Home() {
+
+
+
   useEffect(() => {
     Aos.init();
     Aos.refresh();
   }, []);
+
   return (
+
     <div className={styles.container}>
       <Head>
 
@@ -21,7 +25,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div id="mobMenuFull">
-        <div id="mobCross">
+        <div id="mobCross" onClick={
+          () => {
+            document.getElementById("mobMenuFull").style.display = "none";
+          }
+        }>
           ✖
         </div>
         <div id="mobMenuInt">
@@ -67,7 +75,11 @@ export default function Home() {
             <div id="navRight">
               Contact Us
             </div></Link>
-          <div id="navMob">
+          <div id="navMob" onClick={() => {
+
+            document.getElementById("mobMenuFull").style.display = "flex";
+
+          }}>
             <Image src='/assets/menu.png' width={20} height={20} />
           </div>
         </nav>
@@ -282,7 +294,7 @@ export default function Home() {
         </div>
 
       </footer>
-      <script src="/navv.js"></script>
+      {/* <Script src='/navv.js' /> */}
 
     </div>
   )
