@@ -50,7 +50,7 @@ export default function Tech() {
                 <nav>
                     <div id="navLeft">
                         <Link href='/'>
-                            <div id="logo">Warriors Group</div>
+                            <div id="logo">Warriors GroupLLC</div>
                         </Link>
                         <Link href='/'>
                             <div className="navEle">Home</div>

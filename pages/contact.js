@@ -16,7 +16,7 @@ export default function Contact() {
                         document.getElementById("mobMenuFull").style.display = "none";
                     }
                 }>
-                     ✖
+                    ✖
                 </div>
                 <div id="mobMenuInt">
                     <Link href='/'>
@@ -42,7 +42,7 @@ export default function Contact() {
                 <nav>
                     <div id="navLeft">
                         <Link href='/'>
-                            <div id="logo">Warriors Group</div>
+                            <div id="logo">Warriors Group LLC</div>
                         </Link>
                         <Link href='/'>
                             <div className="navEle">Home</div>
