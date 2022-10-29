@@ -291,7 +291,7 @@
     padding-right: 0;
   }
 
-  #rctImage Img {
+  #rctImage img {
     width: 90%;
     padding-left: 20%;
   }
@@ -300,7 +300,8 @@
 @media screen and (max-width:1071px) {
   #headerRight Img {
     width: auto;
-    height: 60%;
+    height: 50%;
+    left: 30%;
   }
 
   #abtUsArea Img {

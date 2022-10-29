@@ -97,8 +97,13 @@
 }
 
 @media screen and (max-width:600px) {
+    #back {
+        margin-top: 5rem;
+    }
+
     #formArea {
         flex-direction: column;
+        height: 70vh;
     }
 
     .forEle {
