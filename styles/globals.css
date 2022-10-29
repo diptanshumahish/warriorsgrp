@@ -265,5 +265,33 @@ footer {
     font-weight: 600;
   }
 
+  #footerLeft {
+    display: none;
+  }
+
+  #footerRight {
+    width: 100%;
+    text-align: left;
+  }
+
+  .footerContact {
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+  }
+
+  #mobInc {
+    font-size: 1.5rem;
+  }
+
+  #socials {
+    padding-top: 1rem;
+    justify-content: flex-start;
+  }
+
+  .socialIco img {
+    width: 20px;
+    height: 20px;
+  }
 
 }

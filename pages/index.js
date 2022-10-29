@@ -310,7 +310,7 @@ export default function Home() {
           <div id="footeradress">Lewes,USA</div>
         </div>
         <div id="footerRight">
-          <div className="footerContact">Warriors Group LLC</div>
+          <div className="footerContact" id="mobInc">Warriors Group LLC</div>
           <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
           <Link href='mailto:Contact@warriorsgrp.com'><div className="footerContact"> Contact@warriorsgrp.com</div></Link>
           <div className="footerContact">16192 Coastal Highway
