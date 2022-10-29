@@ -87,28 +87,29 @@ export default function Contact() {
                                 <div className={s.forEle}>
                                     Name
                                 </div>
-                                <input type="text" placeholder="Enter your name" />
+                                <input type="text" placeholder="Enter your name" name="name" />
                             </label>
                             <label htmlFor="Email" >
                                 <div className={s.forEle}>
                                     Email
                                 </div>
-                                <input type="email" placeholder="Enter your Email" />
+                                <input type="email" placeholder="Enter your Email" name="email" />
                             </label>
                             <label htmlFor="mobileNumber">
                                 <div className={s.forEle}>
                                     Mobile Number
                                 </div>
-                                <input type="tel" placeholder="Enter your Mobile Number" />
+                                <input type="tel" placeholder="Enter your Mobile Number" name="mobile Number" />
                             </label>
                             <label htmlFor="message">
                                 <div className={s.forEle}>
                                     Message
                                 </div>
-                                <textarea name="" id="" cols="20" rows="10" placeholder="Enter your Message here"></textarea>
+                                <textarea name="message" id="" cols="20" rows="10" placeholder="Enter your Message here" ></textarea>
                             </label>
                             <input type="hidden" name="_next" value="https://warriorsgrp.com/thankyou"></input>
                             <input type="hidden" name="_template" value="box"></input>
+                            <input type="hidden" name="_captcha" value="false"></input>
                             <button type="submit" id={s.submit}>Submit</button>
                         </form>
                     </div>
