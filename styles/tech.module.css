@@ -1,5 +1,6 @@
 .techBack {
     padding: 3rem;
+    overflow: hidden;
 
 }
 
@@ -96,9 +97,8 @@
     padding: 1rem;
     font-size: 1rem;
     border-radius: 0.3rem;
-    width: 140%;
+    width: 30vw;
 }
-
 
 
 #logoText {
@@ -136,6 +136,24 @@
         width: auto;
         height: 90%;
     }
+
+    .extraCard {
+        width: 40vw;
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    #remove {
+        overflow: hidden;
+    }
+
+    #remove img {
+        /* scale: 1.5; */
+        position: relative;
+        left: 30%;
+
+    }
+
 }
 
 @media screen and (max-width:800px) {

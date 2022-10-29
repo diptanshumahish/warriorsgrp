@@ -57,6 +57,11 @@ nav {
 
 }
 
+#logo img {
+  width: 15%;
+  height: auto;
+}
+
 #navLeft {
   display: flex;
   flex-direction: row;
