@@ -181,6 +181,10 @@ footer {
   * {
     font-size: 75%;
   }
+
+  html,body {
+    background-image: none;
+  }
 }
 
 @media screen and (max-width:740px) {
