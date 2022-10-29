@@ -82,7 +82,7 @@ export default function Contact() {
                         <div id={s.formsubHeading}>
                             Fill up this form and we will get back to you as soon as possible
                         </div>
-                        <form action="" id={s.contactForm}>
+                        <form action="https://formsubmit.co/diptanshumahish2016@gmail.com" id={s.contactForm} method="POST">
                             <label htmlFor="Name">
                                 <div className={s.forEle}>
                                     Name
@@ -107,6 +107,8 @@ export default function Contact() {
                                 </div>
                                 <textarea name="" id="" cols="20" rows="10" placeholder="Enter your Message here"></textarea>
                             </label>
+                            <input type="hidden" name="_next" value="https://warriorsgrp.com/thankyou"></input>
+                            <input type="hidden" name="_template" value="box"></input>
                             <button type="submit" id={s.submit}>Submit</button>
                         </form>
                     </div>

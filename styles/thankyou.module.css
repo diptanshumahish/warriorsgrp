@@ -1,0 +1,23 @@
+#container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center {
+    font-size: 3rem;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+#back {
+    margin-top: 0.5rem;
+    background-color: var(--themeSec);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.429) 0px 7px 29px 0px;
+}
