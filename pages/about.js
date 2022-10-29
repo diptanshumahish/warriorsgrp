@@ -44,35 +44,35 @@ export default function About() {
                 </div>
             </div>
             <nav>
-          <div id="navLeft">
-            <Link href='/'>
-              <div id="logo"> <Image src='/light2trans.png' height={50} width={50} /> Warriors Group LLC</div>
-            </Link>
-            <Link href='/'>
-              <div className="navEle">Home</div>
-            </Link>
-            <Link href='/services'>
-              <div className="navEle">Services</div>
-            </Link>
+                <div id="navLeft">
+                    <Link href='/'>
+                        <div id="logo"> <Image src='/light2trans.png' height={50} width={50} /> Warriors Group LLC</div>
+                    </Link>
+                    <Link href='/'>
+                        <div className="navEle">Home</div>
+                    </Link>
+                    <Link href='/services'>
+                        <div className="navEle">Services</div>
+                    </Link>
 
-            <Link href="/tech">
-              <div className="navEle">Technologies</div>
-            </Link>
-            <Link href='/about'>
-              <div className="navEle">About Us</div></Link>
-          </div>
-          <Link href='/contact'>
-            <div id="navRight">
-              Contact Us
-            </div></Link>
-          <div id="navMob" onClick={() => {
+                    <Link href="/tech">
+                        <div className="navEle">Technologies</div>
+                    </Link>
+                    <Link href='/about'>
+                        <div className="navEle">About Us</div></Link>
+                </div>
+                <Link href='/contact'>
+                    <div id="navRight">
+                        Contact Us
+                    </div></Link>
+                <div id="navMob" onClick={() => {
 
-            document.getElementById("mobMenuFull").style.display = "flex";
+                    document.getElementById("mobMenuFull").style.display = "flex";
 
-          }}>
-            <Image src='/assets/menu.png' width={20} height={20} />
-          </div>
-        </nav>
+                }}>
+                    <Image src='/assets/menu.png' width={20} height={20} />
+                </div>
+            </nav>
             <main>
                 <div id={a.who} data-aos="fade-up">
                     <div id={a.whoText}>
@@ -119,40 +119,40 @@ export default function About() {
 
             </main>
             <footer >
-        <div id="footerLeft">
-          <div id="footerLogo">
-            <Image src='/assets/war.png' height={100} width={100} />
-          </div>
-          <div id="logoText">Warriors Group LLC</div>
-          <div id="footeradress">Lewes,USA</div>
-        </div>
-        <div id="footerRight">
-          <div className="footerContact" id="mobInc">Warriors Group LLC</div>
-          <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
-          <Link href='mailto:Contact@warriorsgrp.com'><div className="footerContact"> Contact@warriorsgrp.com</div></Link>
-          <div className="footerContact">16192 Coastal Highway
-            Lewes, DE 19958 USA</div>
-          <div className="footerContact">Fax: 302-645-1280</div>
+                <div id="footerLeft">
+                    <div id="footerLogo">
+                        <Image src='/assets/war.png' height={100} width={100} />
+                    </div>
+                    <div id="logoText">Warriors Group LLC</div>
+                    <div id="footeradress">Lewes,USA</div>
+                </div>
+                <div id="footerRight">
+                    <div className="footerContact" id="mobInc">Warriors Group LLC</div>
+                    <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+                    <Link href='mailto:Contact@warriorsgrp.com'><div className="footerContact"> Contact@warriorsgrp.com</div></Link>
+                    <div className="footerContact">16192 Coastal Highway
+                        Lewes, DE 19958 USA</div>
+                    <div className="footerContact">Fax: 302-645-1280</div>
 
-          <div className="footerContact" id="socials">
-            <Link href='#'>
-              <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
+                    <div className="footerContact" id="socials">
+                        <Link href='https://wa.me/3024762579'>
+                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
 
-            </Link>
-            <Link href='http://facebook.com/WarriorsGroupLLC'>
-              <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} /></div>
-            </Link>
-            <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
-              <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} /></div>
-            </Link>
-            <Link href='http://facebook.com/WarriorsGroupLLC'>
-              <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} /></div>
-            </Link>
-          </div>
+                        </Link>
+                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} /></div>
+                        </Link>
+                        <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
+                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} /></div>
+                        </Link>
+                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} /></div>
+                        </Link>
+                    </div>
 
-        </div>
+                </div>
 
-      </footer>
+            </footer>
 
 
         </div>
