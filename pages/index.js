@@ -217,8 +217,6 @@ export default function Home() {
               <Image src='/assets/quad.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
               <Image src='/assets/hun.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
               <Image src='/assets/cof.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
-
-
             </Marquee>
 
 
@@ -329,7 +327,7 @@ export default function Home() {
           <div className="footerContact">Fax: 302-645-1280</div>
 
           <div className="footerContact" id="socials">
-            <Link href='https://wa.me/3024762579'>
+            <Link href='https://wa.me/13024762579'>
               <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
 
             </Link>
