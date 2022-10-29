@@ -202,12 +202,23 @@ export default function Home() {
         <div id={styles.client}>
           <div id={styles.clientHead}>Our Clients include:</div>
           <div id={styles.clientLogos}>
-            <Marquee gradientWidth={0} id={styles.mar}>
+            <Marquee gradientWidth={0} id={styles.mar} speed='40'>
               <Image src='/assets/tcs.png' height={100} width={400} className={styles.clientLogo} />&nbsp;
               <Image src='/assets/per.png' height={100} width={400} className={styles.clientLogo} /> &nbsp; &nbsp;
               <Image src='/assets/hcl.png' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp;
               <Image src='/assets/gen.png' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp; &nbsp;
               <Image src='/assets/cap.webp' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp;
+              <Image src='/assets/info.png' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp;
+              <Image src='/assets/kforce.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp; &nbsp;
+              <Image src='/assets/ver.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+              <Image src='/assets/walmart.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+              <Image src='/assets/wipro.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+              <Image src='/assets/capi.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+              <Image src='/assets/quad.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+              <Image src='/assets/hun.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+              <Image src='/assets/cof.png' height={100} width={400} className={styles.clientLogo} />  &nbsp;&nbsp;
+
+
             </Marquee>
 
 

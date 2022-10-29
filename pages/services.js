@@ -2,6 +2,7 @@ import s from '../styles/services.module.css'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import Marquee from 'react-fast-marquee'
 
 export default function Service() {
     return (
@@ -143,6 +144,31 @@ export default function Service() {
                         </div>
                     </div>
                 </section>
+                <div id={s.client}>
+                    <div id={s.clientHead}>Our Clients include:</div>
+                    <div id={s.clientLogos}>
+                        <Marquee gradientWidth={0} id={s.mar} speed='40'>
+                            <Image src='/assets/tcs.png' height={100} width={400} className={s.clientLogo} />&nbsp;
+                            <Image src='/assets/per.png' height={100} width={400} className={s.clientLogo} /> &nbsp; &nbsp;
+                            <Image src='/assets/hcl.png' height={100} width={400} className={s.clientLogo} />&nbsp; &nbsp;
+                            <Image src='/assets/gen.png' height={100} width={400} className={s.clientLogo} />&nbsp; &nbsp; &nbsp;
+                            <Image src='/assets/cap.webp' height={100} width={400} className={s.clientLogo} />&nbsp; &nbsp;
+                            <Image src='/assets/info.png' height={100} width={400} className={s.clientLogo} />&nbsp; &nbsp;
+                            <Image src='/assets/kforce.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp; &nbsp;
+                            <Image src='/assets/ver.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+                            <Image src='/assets/walmart.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+                            <Image src='/assets/wipro.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+                            <Image src='/assets/capi.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+                            <Image src='/assets/quad.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+                            <Image src='/assets/hun.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+                            <Image src='/assets/cof.png' height={100} width={400} className={s.clientLogo} />  &nbsp;&nbsp;
+
+
+                        </Marquee>
+
+
+                    </div>
+                </div>
             </main>
 
             <footer >
