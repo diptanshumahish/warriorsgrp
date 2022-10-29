@@ -50,7 +50,7 @@ export default function Tech() {
                 <nav>
                     <div id="navLeft">
                         <Link href='/'>
-                            <div id="logo">Warriors GroupLLC</div>
+                            <div id="logo">Warriors Group LLC</div>
                         </Link>
                         <Link href='/'>
                             <div className="navEle">Home</div>
@@ -84,7 +84,6 @@ export default function Tech() {
                                 Our Staffing Solutions
                             </div>
                             <div id={t.mainTextSub}>The workforce is an <span>asset</span> for every organization. <span>Warriors Group</span> understands it and pay great heed to the clients staffing needs. Our team <span>works efficiently</span> in providing talented and qualified workforce for our clients, which fully meets the staffing criteria. We have created a comprehensive platform to meet the varied project and client&apos;s needs. Our dedicated staffing platform enable our clients to choose from a various range of staffing options i.e. contract to hire to permanent staffing; this helps in choosing the best for both short term and long term projects. This also empowers to choose a reliable work force within a budget. We strive to provide workforce to our clients in all fields.
-
                                 We work all times to employ the qualified individuals who match your corporate culture and also ensure that it is not just hiring but about providing a skilled individual, who in turn develops a <span>mutual relationship</span> with the organization. At <span>Warriors Group</span> every candidate is tested on his abilities, strength, and weakness, retaining and referring <span>the best</span> aspirant for the job, thus ensure an optimistic and successful future for both the client and the candidate.</div>
                         </div>
                         <div id={t.mainTextImage}>
@@ -292,24 +291,34 @@ export default function Tech() {
                     </div>
                 </div>
             </main>
-            <footer id={t.footer}>
-                <div id={t.footerLeft}>
-                    <div id={t.footerLogo}>
+            <footer >
+                <div id="footerLeft">
+                    <div id="footerLogo">
                         <Image src='/assets/war.png' height={100} width={100} />
                     </div>
-                    <div id={t.logoText}>Warrior&apos;s Group</div>
-                    <div id={t.footeradress}>Lewes,USA</div>
+                    <div id="logoText">Warriors Group LLC</div>
+                    <div id="footeradress">Lewes,USA</div>
                 </div>
-                <div id={t.footerRight}>
+                <div id="footerRight">
 
-                    <div className={t.footerContact}>16192 Coastal Highway
+                    <div className="footerContact">16192 Coastal Highway
                         Lewes, DE 19958 USA</div>
-                    <div className={t.footerContact}>Fax: 302-645-1280</div>
-                    <div className={t.footerContact}> ☎+1 (302)-476-2579</div>
-                    <div className={t.footerContact} id={t.socials}>
-                        <div className={t.socialIco}><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
-                        <div className={t.socialIco}><Image src='/assets/insta.png' width={30} height={30} /></div>
-                        <div className={t.socialIco}><Image src='/assets/fb.png' width={30} height={30} /></div>
+                    <div className="footerContact">Fax: 302-645-1280</div>
+                    <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+                    <div className="footerContact" id="socials">
+                        <Link href='#'>
+                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
+
+                        </Link>
+                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} /></div>
+                        </Link>
+                        <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
+                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} /></div>
+                        </Link>
+                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} /></div>
+                        </Link>
                     </div>
 
                 </div>

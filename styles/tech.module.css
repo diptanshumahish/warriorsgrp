@@ -99,14 +99,7 @@
     width: 140%;
 }
 
-#footer {
-    background-color: var(--themeColor);
-    padding: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 #logoText {
     color: white;

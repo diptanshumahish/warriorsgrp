@@ -145,6 +145,39 @@ export default function Service() {
                 </section>
             </main>
 
+            <footer >
+                <div id="footerLeft">
+                    <div id="footerLogo">
+                        <Image src='/assets/war.png' height={100} width={100} />
+                    </div>
+                    <div id="logoText">Warriors Group LLC</div>
+                    <div id="footeradress">Lewes,USA</div>
+                </div>
+                <div id="footerRight">
+
+                    <div className="footerContact">16192 Coastal Highway
+                        Lewes, DE 19958 USA</div>
+                    <div className="footerContact">Fax: 302-645-1280</div>
+                    <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+                    <div className="footerContact" id="socials">
+                        <Link href='#'>
+                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
+
+                        </Link>
+                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} /></div>
+                        </Link>
+                        <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
+                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} /></div>
+                        </Link>
+                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} /></div>
+                        </Link>
+                    </div>
+
+                </div>
+
+            </footer>
 
         </div>
     )
