@@ -162,6 +162,23 @@
   background-color: var(--themeColor);
 }
 
+#clientLogos {
+  padding: 2rem 0;
+  width: 100vw;
+
+}
+
+
+#clientHead {
+  font-size: 3rem;
+  padding: 0 4rem;
+  font-weight: 500;
+}
+
+.clientLogo {
+  width: auto;
+}
+
 #recruitProcess {
   background-color: var(--themeSec);
 }
@@ -253,6 +270,7 @@
 .footerContact {
   text-align: right;
   color: white;
+  font-size: 1rem;
 }
 
 #footerRight {

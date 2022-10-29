@@ -40,7 +40,7 @@ export default function Service() {
                 <nav>
                     <div id="navLeft">
                         <Link href='/'>
-                            <div id="logo">Warriors Group LLC</div>
+                            <div id="logo"> <Image src='/light2trans.png' height={50} width={50} /> Warriors Group LLC</div>
                         </Link>
                         <Link href='/'>
                             <div className="navEle">Home</div>

@@ -44,36 +44,35 @@ export default function About() {
                 </div>
             </div>
             <nav>
-                <div id="navLeft">
-                    <Link href='/'>
-                        <div id="logo">Warriors Group LLC</div>
-                    </Link>
-                    <Link href='/'>
-                        <div className="navEle">Home</div>
-                    </Link>
-                    <Link href='/services'>
-                        <div className="navEle">Services</div>
-                    </Link>
+          <div id="navLeft">
+            <Link href='/'>
+              <div id="logo"> <Image src='/light2trans.png' height={50} width={50} /> Warriors Group LLC</div>
+            </Link>
+            <Link href='/'>
+              <div className="navEle">Home</div>
+            </Link>
+            <Link href='/services'>
+              <div className="navEle">Services</div>
+            </Link>
 
-                    <Link href="/tech">
-                        <div className="navEle">Technologies</div>
-                    </Link>
-                    <Link href='/about'>
-                        <div className="navEle">About Us</div></Link>
-                </div>
+            <Link href="/tech">
+              <div className="navEle">Technologies</div>
+            </Link>
+            <Link href='/about'>
+              <div className="navEle">About Us</div></Link>
+          </div>
+          <Link href='/contact'>
+            <div id="navRight">
+              Contact Us
+            </div></Link>
+          <div id="navMob" onClick={() => {
 
-                <Link href='/contact'>
-                    <div id="navRight">
-                        Contact Us
-                    </div></Link>
-                <div id="navMob" onClick={() => {
+            document.getElementById("mobMenuFull").style.display = "flex";
 
-                    document.getElementById("mobMenuFull").style.display = "flex";
-
-                }}>
-                    <Image src='/assets/menu.png' width={20} height={20} />
-                </div>
-            </nav>
+          }}>
+            <Image src='/assets/menu.png' width={20} height={20} />
+          </div>
+        </nav>
             <main>
                 <div id={a.who} data-aos="fade-up">
                     <div id={a.whoText}>

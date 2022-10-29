@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 html,
 body {
@@ -8,6 +10,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-image: url(/back.svg);
   background-size: cover;
+  background-position: center;
+  /* ba */
 }
 
 ::-webkit-scrollbar {
@@ -39,7 +43,7 @@ nav {
   width: 100vw;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 0.4rem 3rem;
   background-color: white;
   z-index: 100;
 }
@@ -47,9 +51,14 @@ nav {
 #logo {
   color: var(--themeColor);
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-right: 1.5rem;
-  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  /* font-family: 'Bebas Neue', cursive; */
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Archivo Black', sans-serif;
 }
 
 #navLeft {
@@ -116,6 +125,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  font-size: 1rem;
 }
 
 #socials {
@@ -186,6 +196,10 @@ footer {
 }
 
 @media screen and (max-width:600px) {
+  nav {
+    padding: 0.5rem 1rem;
+  }
+
   #navMob {
     display: block;
   }
@@ -200,9 +214,6 @@ footer {
     justify-content: center;
   }
 
-  nav {
-    padding: 1.5rem;
-  }
 
   .navEle,
   #navRight {

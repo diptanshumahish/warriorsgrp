@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import Marquee from "react-fast-marquee";
 
 export default function Home() {
 
@@ -65,7 +66,7 @@ export default function Home() {
         <nav>
           <div id="navLeft">
             <Link href='/'>
-              <div id="logo">Warriors Group LLC</div>
+              <div id="logo"> <Image src='/light2trans.png' height={50} width={50} /> Warriors Group LLC</div>
             </Link>
             <Link href='/'>
               <div className="navEle">Home</div>
@@ -194,8 +195,24 @@ export default function Home() {
               </div>
 
             </div>
+
           </div>
+
         </section>
+        <div id={styles.client}>
+          <div id={styles.clientHead}>Our Clients include:</div>
+          <div id={styles.clientLogos}>
+            <Marquee gradientWidth={0} id={styles.mar}>
+              <Image src='/assets/tcs.png' height={100} width={400} className={styles.clientLogo} />&nbsp;
+              <Image src='/assets/per.png' height={100} width={400} className={styles.clientLogo} /> &nbsp; &nbsp;
+              <Image src='/assets/hcl.png' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp;
+              <Image src='/assets/gen.png' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp; &nbsp;
+              <Image src='/assets/cap.webp' height={100} width={400} className={styles.clientLogo} />&nbsp; &nbsp;
+            </Marquee>
+
+
+          </div>
+        </div>
         <section id={styles.recruitProcess}>
           <div id={styles.recruitHead}  >
             What is our recruitment procedure? <br />
@@ -293,11 +310,13 @@ export default function Home() {
           <div id="footeradress">Lewes,USA</div>
         </div>
         <div id="footerRight">
-
+          <div className="footerContact">Warriors Group LLC</div>
+          <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+          <Link href='mailto:Contact@warriorsgrp.com'><div className="footerContact"> Contact@warriorsgrp.com</div></Link>
           <div className="footerContact">16192 Coastal Highway
             Lewes, DE 19958 USA</div>
           <div className="footerContact">Fax: 302-645-1280</div>
-          <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+
           <div className="footerContact" id="socials">
             <Link href='#'>
               <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
