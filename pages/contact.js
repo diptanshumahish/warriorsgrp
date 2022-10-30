@@ -42,7 +42,7 @@ export default function Contact() {
                 <nav>
                     <div id="navLeft">
                         <Link href='/'>
-                            <div id="logo"> <Image src='/transs.jpg' height={50} width={50} /> Warriors Group LLC</div>
+                            <div id="logo"> <Image src='/transs.jpg' height={50} width={50} alt='warriors group llc' /> Warriors Group LLC</div>
                         </Link>
                         <Link href='/'>
                             <div className="navEle">Home</div>
@@ -66,7 +66,7 @@ export default function Contact() {
                         document.getElementById("mobMenuFull").style.display = "flex";
 
                     }}>
-                        <Image src='/assets/menu.png' width={20} height={20} />
+                        <Image src='/assets/menu.png' width={20} height={20} alt='wg menu' />
                     </div>
                 </nav>
                 <div id={s.back}>
@@ -113,14 +113,14 @@ export default function Contact() {
                             <button type="submit" id={s.submit}>Submit</button>
                         </form>
                     </div>
-                    <Image src='/assets/form.svg' width={500} height={400} />
+                    <Image src='/assets/form.svg' width={500} height={400} alt='form image'/>
 
                 </div>
             </main>
             <footer >
                 <div id="footerLeft">
                     <div id="footerLogo">
-                        <Image src='/assets/war.png' height={100} width={100} />
+                        <Image src='/assets/war.png' height={100} width={100} alt='wag logo' />
                     </div>
                     <div id="logoText">Warriors Group LLC</div>
                     <div id="footeradress">Lewes,USA</div>
@@ -135,19 +135,20 @@ export default function Contact() {
 
                     <div className="footerContact" id="socials">
                         <Link href='https://wa.me/13024762579'>
-                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} alt='whatsapp wg' /></div>
 
                         </Link>
                         <Link href='http://facebook.com/WarriorsGroupLLC'>
-                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} alt='linekdin' /></div>
                         </Link>
                         <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
-                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} alt='instagram' /></div>
                         </Link>
                         <Link href='http://facebook.com/WarriorsGroupLLC'>
-                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} alt='facebook' /></div>
                         </Link>
                     </div>
+
 
                 </div>
 

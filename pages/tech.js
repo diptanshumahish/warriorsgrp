@@ -50,7 +50,7 @@ export default function Tech() {
                 <nav>
                     <div id="navLeft">
                         <Link href='/'>
-                            <div id="logo"> <Image src='/transs.jpg' height={50} width={50} /> Warriors Group LLC</div>
+                            <div id="logo"> <Image src='/transs.jpg' height={50} width={50} alt='warriors group' /> Warriors Group LLC</div>
                         </Link>
                         <Link href='/'>
                             <div className="navEle">Home</div>
@@ -74,7 +74,7 @@ export default function Tech() {
                         document.getElementById("mobMenuFull").style.display = "flex";
 
                     }}>
-                        <Image src='/assets/menu.png' width={20} height={20} />
+                        <Image src='/assets/menu.png' width={20} height={20} alt='wg menu' />
                     </div>
                 </nav>
                 <div className={t.techBack}>
@@ -102,7 +102,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     Java
                                 </div>
-                                <Image src='/assets/java.svg' height={50} width={50} />
+                                <Image src='/assets/java.svg' height={50} width={50} alt='java' />
 
                             </div>
                         </Link>
@@ -113,7 +113,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     Python
                                 </div>
-                                <Image src='/assets/python.svg' height={50} width={50} />
+                                <Image src='/assets/python.svg' height={50} width={50} alt='python' />
                             </div>
                         </Link>
                         {/* 3 */}
@@ -123,7 +123,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     .NET Developer
                                 </div>
-                                <Image src='/assets/net.svg' height={50} width={50} />
+                                <Image src='/assets/net.svg' height={50} width={50} alt='.net' />
                             </div>
                         </Link>
                         {/* 4 */}
@@ -133,7 +133,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     iOS Developer
                                 </div>
-                                <Image src='/assets/ios.svg' height={50} width={50} />
+                                <Image src='/assets/ios.svg' height={50} width={50} alt='ios' />
                             </div>
                         </Link>
                         {/* 5 */}
@@ -143,7 +143,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     Azure
                                 </div>
-                                <Image src='/assets/azure.svg' height={50} width={50} />
+                                <Image src='/assets/azure.svg' height={50} width={50} alt='azure' />
                             </div>
                         </Link>
                         {/* 6 */}
@@ -153,7 +153,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     AWS
                                 </div>
-                                <Image src='/assets/aws.svg' height={50} width={50} />
+                                <Image src='/assets/aws.svg' height={50} width={50} alt='aws' />
                             </div>
                         </Link>
                         {/* 7 */}
@@ -163,7 +163,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     React JS
                                 </div>
-                                <Image src='/assets/react.svg' height={50} width={50} />
+                                <Image src='/assets/react.svg' height={50} width={50} alt='react' />
                             </div>
                         </Link>
                         {/* 8 */}
@@ -173,7 +173,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     UI/UX
                                 </div>
-                                <Image src='/assets/ui.svg' height={50} width={50} />
+                                <Image src='/assets/ui.svg' height={50} width={50} alt='ui' />
                             </div>
                         </Link>
                         {/* 9 */}
@@ -183,7 +183,7 @@ export default function Tech() {
                                 <div className={t.techCardHead}>
                                     Cyber Security
                                 </div>
-                                <Image src='/assets/cyber.svg' height={50} width={50} />
+                                <Image src='/assets/cyber.svg' height={50} width={50} alt='cyybersecurity' />
                             </div>
                         </Link>
 
@@ -287,7 +287,7 @@ export default function Tech() {
 
                             </div>
                             <div id={t.remove} data-aos="fade-left">
-                                <Image src='/assets/inter.svg' width={700} height={500} />
+                                <Image src='/assets/inter.svg' width={700} height={500} alt='warriors group' />
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@ export default function Tech() {
             <footer >
                 <div id="footerLeft">
                     <div id="footerLogo">
-                        <Image src='/assets/war.png' height={100} width={100} />
+                        <Image src='/assets/war.png' height={100} width={100} alt='warrors group logo' />
                     </div>
                     <div id="logoText">Warriors Group LLC</div>
                     <div id="footeradress">Lewes,USA</div>
@@ -311,19 +311,20 @@ export default function Tech() {
 
                     <div className="footerContact" id="socials">
                         <Link href='https://wa.me/13024762579'>
-                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} alt='whatsapp wg' /></div>
 
                         </Link>
                         <Link href='http://facebook.com/WarriorsGroupLLC'>
-                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} alt='linekdin' /></div>
                         </Link>
                         <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
-                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/insta.png' width={30} height={30} alt='instagram' /></div>
                         </Link>
                         <Link href='http://facebook.com/WarriorsGroupLLC'>
-                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} /></div>
+                            <div className="socialIco"><Image src='/assets/fb.png' width={30} height={30} alt='facebook' /></div>
                         </Link>
                     </div>
+
 
                 </div>
 

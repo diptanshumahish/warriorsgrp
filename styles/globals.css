@@ -9,7 +9,6 @@ body {
   background-image: url(/back.svg);
   background-size: cover;
   background-position: center;
-  /* ba */
 }
 
 ::-webkit-scrollbar {
@@ -19,6 +18,7 @@ body {
 :root {
   --themeColor: #220839;
   --themeSec: #7d4aaa;
+  --col:#ffffff00;
 }
 
 a {
@@ -188,6 +188,11 @@ input {
 @media screen and (max-width:890px) {
   * {
     font-size: 80%;
+  }
+
+  html,
+  body {
+    background-image: none;
   }
 }
 
