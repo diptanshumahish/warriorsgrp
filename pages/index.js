@@ -102,7 +102,7 @@ export default function Home() {
 
           </div>
           <div id={styles.headerRight}>
-            <iframe src="https://embed.lottiefiles.com/animation/103199" height={900} width={900}></iframe>
+            <Image src='/assets/front.gif' width={500} height={500} alt='Warriors Gorup' />
           </div>
         </header>
         <section id={styles.abtUs}>
@@ -332,7 +332,7 @@ export default function Home() {
               <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} alt='whatsapp wg' /></div>
 
             </Link>
-            <Link href='http://facebook.com/WarriorsGroupLLC'>
+            <Link href='https://www.linkedin.com/company/warriors-group-llc/'>
               <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} alt='linekdin' /></div>
             </Link>
             <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>

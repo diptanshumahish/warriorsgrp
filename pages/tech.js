@@ -314,7 +314,7 @@ export default function Tech() {
                             <div className="socialIco"><Image src='/assets/whatsapp.png' width={30} height={30} alt='whatsapp wg' /></div>
 
                         </Link>
-                        <Link href='http://facebook.com/WarriorsGroupLLC'>
+                        <Link href='https://www.linkedin.com/company/warriors-group-llc/'>
                             <div className="socialIco"><Image src='/assets/linkedin.png' width={30} height={30} alt='linekdin' /></div>
                         </Link>
                         <Link href='https://www.instagram.com/invites/contact/?i=ocmsbs0g3tfx&utm_content=prace9n'>
