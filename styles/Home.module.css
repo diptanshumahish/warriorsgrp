@@ -284,6 +284,24 @@
   gap: 0.5rem;
 }
 
+#loading {
+  z-index: 10000;
+  background-color: var(--themeSec);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#aniImage {
+  width: auto;
+}
+
 @media screen and (max-width:1200px) {
   #headerRight {
     width: 90%;

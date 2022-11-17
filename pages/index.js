@@ -2,23 +2,28 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import Marquee from "react-fast-marquee";
 
 export default function Home() {
-
+  const [loading, setLoading] = useState('flex');
 
 
   useEffect(() => {
     Aos.init();
     Aos.refresh();
+
+    setTimeout(() => {
+      setLoading('none')
+    }, 3000)
   }, []);
 
   return (
 
     <div className={styles.container}>
+
       <Head>
 
         <title>Warrior&apos;s Group</title>
@@ -94,6 +99,12 @@ export default function Home() {
             <Image src='/assets/menu.png' width={20} height={20} alt='warriorsGrp Menu Icon' />
           </div>
         </nav>
+        <div id={styles.loading} style={{ display: loading }}>
+          <div id={styles.mid}>
+
+            <Image src='/assets/aniLogo.gif' height={400} width={400} id={styles.aniImage} />
+          </div>
+        </div>
         <div id={styles.topStyle}></div>
         <header data-aos="fade-up">
           <div id={styles.headerLeft}>

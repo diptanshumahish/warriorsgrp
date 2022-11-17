@@ -16,10 +16,26 @@
     align-items: center;
 }
 
+#whoText {
+    max-width: 60vw;
+}
+
 #whoHead {
     font-size: 3rem;
     font-weight: 600;
     color: var(--themeColor);
+}
+
+#whoImage {
+    overflow: hidden;
+    border-radius: 2rem;
+    /* height: 300px;
+    width: 300px; */
+}
+
+#inwho {
+    height: auto;
+    scale: 2.5;
 }
 
 #whoSub {
@@ -148,6 +164,7 @@
     #whoImage {
         margin-left: -5rem;
     }
+
 
     #portText {
         padding: 0 0;

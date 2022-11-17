@@ -88,7 +88,7 @@ export default function About() {
                         </div>
                     </div>
                     <div id={a.whoImage}>
-                        <Image src='/assets/war.png' width={400} height={400} alt='warriors group' />
+                        <Image src='/assets/fill.gif' width={400} height={400} alt='warriors group' id={a.inwho} />
                     </div>
                 </div>
                 <div id={a.port} data-aos="fade-up">
