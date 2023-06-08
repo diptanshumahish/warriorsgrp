@@ -90,11 +90,11 @@ export default function Tech() {
                             <Image src='/assets/solution.svg' width={500} height={500} alt="solution" />
                         </div>
                     </div>
-                    <div id={t.explore}>
+                    <div id={t.explore} data-aos="fade-right">
                         Explore what we offfer:
                     </div>
 
-                    <div id={t.techCards} data-aos="fade-right" >
+                    <div id={t.techCards}  >
                         {/* 1 */}
                         <Link href='/contact'>
 
@@ -107,7 +107,7 @@ export default function Tech() {
                             </div>
                         </Link>
                         {/* 2 */}
-                        <Link href='/contact'>
+                        <Link href='/contact' data-aos="fade-right">
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
@@ -117,7 +117,7 @@ export default function Tech() {
                             </div>
                         </Link>
                         {/* 3 */}
-                        <Link href='/contact'>
+                        <Link href='/contact' data-aos="fade-up">
 
                             <div className={t.techCard}>
                                 <div className={t.techCardHead}>
@@ -303,7 +303,7 @@ export default function Tech() {
                 </div>
                 <div id="footerRight">
                     <div className="footerContact" id="mobInc">Warriors Group LLC</div>
-                    <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+                    <Link href='tel:+1 302-231-1301'><div className="footerContact"> ☎+1 302-231-1301</div></Link>
                     <Link href='mailto:Contact@warriorsgrp.com'><div className="footerContact"> Contact@warriorsgrp.com</div></Link>
                     <div className="footerContact">16192 Coastal Highway
                         Lewes, DE 19958 USA</div>

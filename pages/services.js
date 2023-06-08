@@ -179,7 +179,7 @@ export default function Service() {
                 </div>
                 <div id="footerRight">
                     <div className="footerContact" id="mobInc">Warriors Group LLC</div>
-                    <Link href='tel:+1 (302)-476-2579'><div className="footerContact"> ☎+1 (302)-476-2579</div></Link>
+                    <Link href='tel:+1 302-231-1301'><div className="footerContact"> ☎+1 302-231-1301</div></Link>
                     <Link href='mailto:Contact@warriorsgrp.com'><div className="footerContact"> Contact@warriorsgrp.com</div></Link>
                     <div className="footerContact">16192 Coastal Highway
                         Lewes, DE 19958 USA</div>
