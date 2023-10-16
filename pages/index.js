@@ -215,17 +215,11 @@ export default function Home() {
           <div id={styles.clientHead}>Our Clients include:</div>
           <div id={styles.clientLogos}>
             <Marquee gradientWidth={0} id={styles.mar} speed='60'>
-              <Image src='/assets/tcs.png' height={100} width={400} className={styles.clientLogo} alt='tcs' />&nbsp;
-              <Image src='/assets/per.png' height={100} width={400} className={styles.clientLogo} alt='persistence' /> &nbsp; &nbsp;
-              <Image src='/assets/hcl.png' height={100} width={400} className={styles.clientLogo} alt='hcl' />&nbsp; &nbsp;
-              <Image src='/assets/gen.png' height={100} width={400} className={styles.clientLogo} alt='genimpact' />&nbsp; &nbsp; &nbsp;
-              <Image src='/assets/cap.webp' height={100} width={400} className={styles.clientLogo} alt='capegmini' />&nbsp; &nbsp;
-              <Image src='/assets/info.png' height={100} width={400} className={styles.clientLogo} alt='infosys' />&nbsp; &nbsp;
-              <Image src='/assets/kforce.png' height={100} width={400} className={styles.clientLogo} alt='kforce' />  &nbsp;&nbsp; &nbsp;
-              <Image src='/assets/ver.png' height={100} width={400} className={styles.clientLogo} alt='vercel' />  &nbsp;&nbsp;
+              <Image src='/assets/ver.png' height={100} width={400} className={styles.clientLogo} alt='verizon' />  &nbsp;&nbsp;
               <Image src='/assets/walmart.png' height={100} width={400} className={styles.clientLogo} alt='walmart' />  &nbsp;&nbsp;
-              <Image src='/assets/wipro.png' height={100} width={400} className={styles.clientLogo} alt='wipro' />  &nbsp;&nbsp;
               <Image src='/assets/capi.png' height={100} width={400} className={styles.clientLogo} alt='capital' />  &nbsp;&nbsp;
+              <Image src='/assets/jpmc.webp' height={100} width={400} className={styles.clientLogo} alt='jp morgan' />  &nbsp;&nbsp;
+              <Image src='/assets/wf.png' height={100} width={400} className={styles.clientLogo} alt='wells fargo' />  &nbsp;&nbsp;
               <Image src='/assets/quad.png' height={100} width={400} className={styles.clientLogo} alt='quad' />  &nbsp;&nbsp;
               <Image src='/assets/hun.png' height={100} width={400} className={styles.clientLogo} alt='hunter' />  &nbsp;&nbsp;
               <Image src='/assets/cof.png' height={100} width={400} className={styles.clientLogo} alt='cof' />  &nbsp;&nbsp;
